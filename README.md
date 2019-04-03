@@ -1,5 +1,13 @@
 [![Build Status](https://ci-vic.vmware.com/api/badges/vmware/vic/status.svg)](https://ci-vic.vmware.com/vmware/vic) [![codecov](https://codecov.io/gh/vmware/vic/branch/master/graph/badge.svg)](https://codecov.io/gh/vmware/vic) [![Download](https://img.shields.io/badge/download-latest-blue.svg)](https://github.com/vmware/vic/releases/latest) [![Go Report Card](https://goreportcard.com/badge/github.com/vmware/vic)](https://goreportcard.com/report/github.com/vmware/vic)
 
+---
+
+# HashiCorp Fork Changes
+
+This fork exists only to solve hashicorp/go-discover#94. `vmware/vic` imports `logrus` with upper case `Sirupsen` which conflicts with almost all other libraries at this point and goes against the [general recommendation for interop](https://github.com/sirupsen/logrus#case-sensitivity). The issues is tracked in vmware/vic#8263 and the changes made here will be PRed against upstream, if accepted this fork will be removed. Given lack of recent activity on the upstream we choose to fork to unblock our own builds for now.
+
+---
+
 # vSphere Integrated Containers Engine
 
 vSphere Integrated Containers Engine (VIC Engine) is a container runtime for vSphere, allowing developers familiar with Docker to develop in containers and deploy them alongside traditional VM-based workloads on vSphere clusters, and allowing for these workloads to be managed through the vSphere UI in a way familiar to existing vSphere admins.
