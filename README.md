@@ -4,7 +4,7 @@
 
 # HashiCorp Fork Changes
 
-This fork exists only to solve hashicorp/go-discover#94. `vmware/vic` imports `logrus` with upper case `Sirupsen` which conflicts with almost all other libraries at this point and goes against the [general recommendation for interop](https://github.com/sirupsen/logrus#case-sensitivity). The issues is tracked in vmware/vic#8263 and the changes made here will be PRed against upstream, if accepted this fork will be removed. Given lack of recent activity on the upstream we choose to fork to unblock our own builds for now.
+This fork exists only to solve hashicorp/go-discover#94. `vmware/vic` imports `logrus` with upper case `Sirupsen` which conflicts with almost all other libraries at this point and goes against the [general recommendation for interop](https://github.com/sirupsen/logrus#case-sensitivity). The issues is tracked in vmware/vic#8263 once the upstream has found a solution to that, this fork will be removed. Given the ugliness of upstrea having to update (maybe even raise issues and PR against) lots of deps or modify their imports in the vendor dir we are forking for now to solve our immediate problem.
 
 ---
 
