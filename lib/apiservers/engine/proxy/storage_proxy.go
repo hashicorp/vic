@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/google/uuid"
+	log "github.com/sirupsen/logrus"
 
 	derr "github.com/docker/docker/api/errors"
 	"github.com/docker/docker/api/types"

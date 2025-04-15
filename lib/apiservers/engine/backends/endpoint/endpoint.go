@@ -17,8 +17,8 @@ package endpoint
 import (
 	"fmt"
 
-	log "github.com/sirupsen/logrus"
 	apinet "github.com/docker/docker/api/types/network"
+	log "github.com/sirupsen/logrus"
 )
 
 func Alias(endpointConfig *apinet.EndpointSettings) []string {

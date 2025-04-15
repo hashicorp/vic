@@ -30,8 +30,8 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/docker/docker/opts"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vishvananda/netlink"
 

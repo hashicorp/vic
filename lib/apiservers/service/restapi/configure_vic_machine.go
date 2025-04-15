@@ -23,12 +23,12 @@ import (
 	"os"
 	goruntime "runtime"
 
-	"github.com/sirupsen/logrus"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/swag"
 	"github.com/rs/cors"
+	"github.com/sirupsen/logrus"
 	"github.com/tylerb/graceful"
 
 	"github.com/vmware/vic/lib/apiservers/service/models"

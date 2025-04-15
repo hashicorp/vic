@@ -37,8 +37,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	log "github.com/sirupsen/logrus"
 	derr "github.com/docker/docker/api/errors"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vmware/vic/lib/apiservers/engine/errors"
 	"github.com/vmware/vic/lib/apiservers/portlayer/client"

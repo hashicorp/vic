@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"sync"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/docker/libnetwork/iptables"
+	log "github.com/sirupsen/logrus"
 	//viccontainer "github.com/vmware/vic/lib/apiservers/engine/backends/container"
 )
 

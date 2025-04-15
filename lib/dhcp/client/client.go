@@ -21,9 +21,9 @@ import (
 	"syscall"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/d2g/dhcp4"
 	"github.com/d2g/dhcp4client"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vmware/vic/lib/dhcp"
 	"github.com/vmware/vic/pkg/ip"

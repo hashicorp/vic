@@ -20,8 +20,8 @@ import (
 
 	"context"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/docker/docker/pkg/mount"
+	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/vmware/govmomi/object"

@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/go-openapi/strfmt"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/docker/docker/api/types/backend"
 	"github.com/docker/docker/pkg/term"

@@ -25,8 +25,8 @@ import (
 	"path"
 	"testing"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/docker/docker/api/types/backend"
+	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/vmware/vic/lib/imagec"

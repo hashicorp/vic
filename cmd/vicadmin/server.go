@@ -30,10 +30,10 @@ import (
 
 	"context"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/google/uuid"
 	gorillacontext "github.com/gorilla/context"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vmware/vic/lib/vicadmin"
 	"github.com/vmware/vic/pkg/filelock"

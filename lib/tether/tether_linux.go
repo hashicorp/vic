@@ -24,8 +24,8 @@ import (
 	"strings"
 	"syscall"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/kr/pty"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vmware/vic/pkg/trace"
 )

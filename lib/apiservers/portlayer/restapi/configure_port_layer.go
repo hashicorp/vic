@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/swag"
+	log "github.com/sirupsen/logrus"
 	"github.com/tylerb/graceful"
 
 	"github.com/vmware/vic/lib/apiservers/portlayer/models"
