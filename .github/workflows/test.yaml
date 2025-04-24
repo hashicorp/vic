@@ -27,4 +27,4 @@ jobs:
           export GOPATH=$(realpath .)
           cd src/github.com/vmware/vic
 
-          make components
+          make components vic-machine tethers imagec
