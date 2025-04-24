@@ -30,8 +30,8 @@ import (
 	"syscall"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	dar "github.com/docker/docker/pkg/archive"
+	log "github.com/sirupsen/logrus"
 
 	"golang.org/x/crypto/ssh"
 

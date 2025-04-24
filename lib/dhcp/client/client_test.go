@@ -24,9 +24,9 @@ import (
 
 	"io/ioutil"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/d2g/dhcp4"
 	"github.com/google/uuid"
+	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/vmware/vic/lib/system"

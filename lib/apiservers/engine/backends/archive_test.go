@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/docker/docker/api/types"
+	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/vmware/vic/pkg/trace"

@@ -31,9 +31,9 @@ import (
 	"syscall"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/d2g/dhcp4"
 	"github.com/docker/docker/pkg/archive"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/mdlayher/arp"
 	"github.com/mdlayher/ethernet"

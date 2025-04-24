@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/go-openapi/runtime"
 	rtclient "github.com/go-openapi/runtime/client"
 	strfmt "github.com/go-openapi/strfmt"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vmware/govmomi/vim25/types"
 	vchcfg "github.com/vmware/vic/lib/config"

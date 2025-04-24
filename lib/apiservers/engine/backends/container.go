@@ -28,7 +28,6 @@ import (
 
 	"golang.org/x/net/context"
 
-	log "github.com/sirupsen/logrus"
 	derr "github.com/docker/docker/api/errors"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/backend"
@@ -45,6 +44,7 @@ import (
 	"github.com/docker/docker/utils"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/go-units"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vmware/vic/lib/apiservers/engine/backends/cache"
 	viccontainer "github.com/vmware/vic/lib/apiservers/engine/backends/container"

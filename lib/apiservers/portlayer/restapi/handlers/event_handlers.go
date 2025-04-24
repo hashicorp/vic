@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"io"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/go-openapi/runtime/middleware"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vmware/vic/lib/apiservers/portlayer/restapi/operations"
 	"github.com/vmware/vic/lib/apiservers/portlayer/restapi/operations/events"

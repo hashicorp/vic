@@ -22,7 +22,6 @@ import (
 	"fmt"
 	"os"
 
-	log "github.com/sirupsen/logrus"
 	apiserver "github.com/docker/docker/api/server"
 	"github.com/docker/docker/api/server/middleware"
 	"github.com/docker/docker/api/server/router"
@@ -39,6 +38,7 @@ import (
 	"github.com/docker/docker/pkg/signal"
 	"github.com/docker/docker/runconfig"
 	"github.com/docker/go-connections/tlsconfig"
+	log "github.com/sirupsen/logrus"
 
 	vicbackends "github.com/vmware/vic/lib/apiservers/engine/backends"
 	"github.com/vmware/vic/lib/apiservers/engine/backends/executor"

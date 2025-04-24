@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/docker/docker/daemon/events"
 	"github.com/go-openapi/runtime"
 	rc "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/swag"
+	log "github.com/sirupsen/logrus"
 
 	"golang.org/x/sync/singleflight"
 

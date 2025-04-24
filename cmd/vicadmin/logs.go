@@ -33,8 +33,8 @@ import (
 
 	"context"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/hpcloud/tail"
+	log "github.com/sirupsen/logrus"
 
 	"path/filepath"
 

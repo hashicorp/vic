@@ -28,8 +28,8 @@ import (
 	"strings"
 	"time"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/go-openapi/runtime/middleware"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vmware/govmomi/vim25/types"
 	"github.com/vmware/vic/lib/apiservers/portlayer/models"

@@ -19,8 +19,8 @@ import (
 	"io"
 	"sync"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/matryer/resync"
+	log "github.com/sirupsen/logrus"
 
 	"golang.org/x/crypto/ssh"
 

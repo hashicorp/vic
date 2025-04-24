@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/docker/libnetwork/iptables"
+	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
 	"github.com/vmware/vic/lib/tether"
