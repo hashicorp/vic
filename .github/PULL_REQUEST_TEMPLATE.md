@@ -8,7 +8,7 @@ Here's a checklist you might find useful.
 [  ] There are new or updated unit tests validating the change
 
 Refer to CONTRIBUTING.MD for more details.
-  https://github.com/vmware/vic/blob/master/.github/CONTRIBUTING.md
+  https://github.com/hashicorp/vic/blob/master/CONTRIBUTING.md
 -->
 
 Fixes #
@@ -26,14 +26,3 @@ to the commit message or the PR title.
 -->
 
 <!-- heimdall_github_prtemplate:grc-pci_dss-2024-01-05 -->
-## Description
-
-<!-- Provide a summary of what the PR does and why it is being submitted. -->
-
-## Related Issue
-
-<!-- If this PR is linked to any issue, provide the issue number or description here. Any related JIRA tickets can also be added here. -->
-
-## How Has This Been Tested?
-
-<!-- Describe how the changes have been tested. Provide test instructions or details. -->
