@@ -8,7 +8,7 @@ Here's a checklist you might find useful.
 [  ] There are new or updated unit tests validating the change
 
 Refer to CONTRIBUTING.MD for more details.
-  https://github.com/vmware/vic/blob/master/.github/CONTRIBUTING.md
+  https://github.com/hashicorp/vic/blob/master/CONTRIBUTING.md
 -->
 
 Fixes #
@@ -24,3 +24,5 @@ to the commit message or the PR title.
 - To skip running the unit tests, use `[skip unit]`.
 - To fail fast (make normal failures fatal) during the integration testing, use `[fast fail]`.
 -->
+
+<!-- heimdall_github_prtemplate:grc-pci_dss-2024-01-05 -->
