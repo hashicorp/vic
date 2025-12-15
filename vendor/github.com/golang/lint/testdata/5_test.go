@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // This file ends in _test.go, so we should not warn about doc comments.
 // OK
 

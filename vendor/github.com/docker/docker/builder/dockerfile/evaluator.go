@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package dockerfile is the evaluation step in the Dockerfile parse/evaluate pipeline.
 //
 // It incorporates a dispatch table based on the parser.Node values (see the

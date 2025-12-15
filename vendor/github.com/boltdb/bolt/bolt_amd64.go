@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package bolt
 
 // maxMapSize represents the largest mmap size supported by Bolt.

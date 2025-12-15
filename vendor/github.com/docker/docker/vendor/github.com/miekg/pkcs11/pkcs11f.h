@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 /* pkcs11f.h include file for PKCS #11. */
 /* $Revision: 1.2 $ */
 

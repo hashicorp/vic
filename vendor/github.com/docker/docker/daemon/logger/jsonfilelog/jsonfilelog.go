@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package jsonfilelog provides the default Logger implementation for
 // Docker logging. This logger logs to files on the host server in the
 // JSON format.

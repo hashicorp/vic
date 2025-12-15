@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test that we don't ask for comments on sort.Interface methods.
 
 // Package pkg ...

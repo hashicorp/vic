@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package token
 
 // StringSet is a useful type for looking up strings.

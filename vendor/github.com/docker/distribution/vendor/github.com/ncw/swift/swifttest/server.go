@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // This implements a very basic Swift server
 // Everything is stored in memory
 //

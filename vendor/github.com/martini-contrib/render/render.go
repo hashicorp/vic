@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package render is a middleware for Martini that provides easy JSON serialization and HTML template rendering.
 //
 //  package main

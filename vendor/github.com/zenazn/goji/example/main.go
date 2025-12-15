@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Command example is a sample application built with Goji. Its goal is to give
 // you a taste for what Goji looks like in the real world by artificially using
 // all of its features.

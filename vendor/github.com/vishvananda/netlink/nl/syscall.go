@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package nl
 
 // syscall package lack of rule atributes type.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package truncindex provides a general 'index tree', used by Docker
 // in order to be able to reference containers by only a few unambiguous
 // characters of their id.

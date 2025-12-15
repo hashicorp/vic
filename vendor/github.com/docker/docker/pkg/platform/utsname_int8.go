@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build linux,386 linux,amd64 linux,arm64
 // see golang's sources src/syscall/ztypes_linux_*.go that use int8
 

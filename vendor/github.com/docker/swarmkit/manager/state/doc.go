@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package state provides interfaces to work with swarm cluster state.
 //
 // The primary interface is Store, which abstracts storage of this cluster

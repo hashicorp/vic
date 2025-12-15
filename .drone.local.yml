@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 workspace:
   base: /go
   path: src/github.com/vmware/vic

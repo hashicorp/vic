@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package endpointcreds provides support for retrieving credentials from an
 // arbitrary HTTP endpoint.
 //

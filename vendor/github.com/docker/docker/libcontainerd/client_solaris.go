@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package libcontainerd
 
 import "golang.org/x/net/context"

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build linux freebsd solaris
 
 // Package kernel provides helper function to get, parse and compare kernel

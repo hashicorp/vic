@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build darwin dragonfly freebsd netbsd openbsd
 
 package raw

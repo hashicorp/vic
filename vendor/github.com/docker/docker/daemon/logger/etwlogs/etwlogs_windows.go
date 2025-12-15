@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package etwlogs provides a log driver for forwarding container logs
 // as ETW events.(ETW stands for Event Tracing for Windows)
 // A client can then create an ETW listener to listen for events that are sent

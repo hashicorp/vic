@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package signal provides helper functions for dealing with signals across
 // various operating systems.
 package signal

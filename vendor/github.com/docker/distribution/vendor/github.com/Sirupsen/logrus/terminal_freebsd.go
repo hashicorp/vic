@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
   Go 1.2 doesn't include Termios for FreeBSD. This should be added in 1.3 and this could be merged with terminal_darwin.
 */

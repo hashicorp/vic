@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package reporting contains internal functionality related
 // to console reporting and output. Although this package has
 // exported names is not intended for public consumption. See the

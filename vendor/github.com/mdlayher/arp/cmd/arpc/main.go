@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Command arpc provides a simple ARP client which can be used to retrieve
 // hardware addresses of other machines in a LAN using their IPv4 address.
 package main

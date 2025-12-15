@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package units provides helper function to parse and print size and time units
 // in human-readable format.
 package units

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package streamformatter provides helper functions to format a stream.
 package streamformatter
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package dns
 
 // Tests that solve that an specific issue.

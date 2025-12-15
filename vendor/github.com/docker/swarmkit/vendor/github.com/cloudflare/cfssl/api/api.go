@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package api implements an HTTP-based API and server for CFSSL.
 package api
 

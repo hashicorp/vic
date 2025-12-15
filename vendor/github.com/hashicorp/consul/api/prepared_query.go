@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package api
 
 // QueryDatacenterOptions sets options about how we fail over if there are no

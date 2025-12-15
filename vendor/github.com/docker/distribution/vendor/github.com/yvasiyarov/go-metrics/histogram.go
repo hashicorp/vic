@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package metrics
 
 // Histograms calculate distribution statistics from a series of int64 values.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package bitseq provides a structure and utilities for representing long bitmask
 // as sequence of run-lenght encoded blocks. It operates direclty on the encoded
 // representation, it does not decode/encode.

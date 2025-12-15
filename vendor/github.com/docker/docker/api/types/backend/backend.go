@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package backend includes types to send information to server backends.
 package backend
 

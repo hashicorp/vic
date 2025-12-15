@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package devicemapper
 
 // definitions from lvm2 lib/log/log.h

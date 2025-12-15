@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package toml provides facilities for decoding and encoding TOML configuration
 files via reflection. There is also support for delaying decoding with

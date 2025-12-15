@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package libcontainerd
 
 // Remote on Linux defines the accesspoint to the containerd grpc API.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package plugin
 
 import "github.com/docker/docker/api/server/router"

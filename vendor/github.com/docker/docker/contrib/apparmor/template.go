@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package main
 
 const dockerProfileTemplate = `@{DOCKER_GRAPH_PATH}=/var/lib/docker

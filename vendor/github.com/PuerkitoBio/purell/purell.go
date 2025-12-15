@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package purell offers URL normalization as described on the wikipedia page:
 http://en.wikipedia.org/wiki/URL_normalization

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package sqlite3 provides interface to SQLite3 databases.
 

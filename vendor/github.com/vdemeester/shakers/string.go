@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package shakers provide some checker implementation the go-check.Checker interface.
 package shakers
 

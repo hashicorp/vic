@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package buffruneio is a wrapper around bufio to provide buffered runes access with unlimited unreads.
 package buffruneio
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package termbox
 
 // private API, common OS agnostic part

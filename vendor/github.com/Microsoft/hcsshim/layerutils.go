@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package hcsshim
 
 // This file contains utility functions to support storage (graph) related

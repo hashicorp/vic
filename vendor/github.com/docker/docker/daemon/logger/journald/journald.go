@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build linux
 
 // Package journald provides the log driver for forwarding server logs

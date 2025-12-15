@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package utils
 
 // IsProcessAlive returns true if process with a given pid is running.

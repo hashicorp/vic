@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package changelist
 
 // Changelist is the interface for all TUF change lists

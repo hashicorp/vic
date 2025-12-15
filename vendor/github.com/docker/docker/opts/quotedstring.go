@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package opts
 
 // QuotedString is a string that may have extra quotes around the value. The

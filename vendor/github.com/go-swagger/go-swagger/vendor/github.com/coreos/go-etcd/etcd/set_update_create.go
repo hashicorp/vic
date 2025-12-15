@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package etcd
 
 // Set sets the given key to the given value.

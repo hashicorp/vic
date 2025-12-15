@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package restxml provides RESTful XML serialisation of AWS
 // requests and responses.
 package restxml

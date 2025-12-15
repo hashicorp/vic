@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package slack
 
 // IMCreatedEvent represents the IM created event

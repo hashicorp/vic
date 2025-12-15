@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package check is a rich testing extension for Go's testing package.
 //
 // For details about the project, see:

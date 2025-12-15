@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test that blank imports in package main are not flagged.
 // OK
 

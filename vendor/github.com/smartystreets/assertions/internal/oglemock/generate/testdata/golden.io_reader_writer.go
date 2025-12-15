@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // This file was auto-generated using createmock. See the following page for
 // more information:
 //

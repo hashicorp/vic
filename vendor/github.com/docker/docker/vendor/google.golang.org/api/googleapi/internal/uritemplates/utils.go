@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package uritemplates
 
 func Expand(path string, expansions map[string]string) (string, error) {

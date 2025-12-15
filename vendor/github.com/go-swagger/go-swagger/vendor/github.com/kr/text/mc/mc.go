@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Command mc prints in multiple columns.
 //
 //   Usage: mc [-] [-N] [file...]

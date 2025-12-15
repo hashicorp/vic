@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package tuf defines the core TUF logic around manipulating a repo.
 package tuf
 

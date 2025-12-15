@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package slack
 
 // OutgoingMessage is used for the realtime API, and seems incomplete.

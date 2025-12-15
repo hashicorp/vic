@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package daemon exposes the functions that occur on the host server
 // that the Docker daemon is running.
 //

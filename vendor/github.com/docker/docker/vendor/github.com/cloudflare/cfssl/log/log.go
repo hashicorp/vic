@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package log implements a wrapper around the Go standard library's
 // logging package. Clients should set the current log level; only
 // messages below that level will actually be logged. For example, if

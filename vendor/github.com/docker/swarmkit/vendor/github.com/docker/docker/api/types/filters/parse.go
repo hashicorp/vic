@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package filters provides helper function to parse and handle command line
 // filter, used for example in docker ps or docker images commands.
 package filters

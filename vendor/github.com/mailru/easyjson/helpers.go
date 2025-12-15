@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package easyjson contains marshaler/unmarshaler interfaces and helper functions.
 package easyjson
 

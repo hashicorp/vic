@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package config in the ocsp directory provides configuration data for an OCSP
 // signer.
 package config

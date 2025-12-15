@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package storage
 
 // NoSizeLimit is represented as -1 for arguments to GetMeta

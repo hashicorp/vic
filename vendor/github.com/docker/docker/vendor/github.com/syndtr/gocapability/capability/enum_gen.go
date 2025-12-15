@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // generated file; DO NOT EDIT - use go generate in directory with source
 
 package capability

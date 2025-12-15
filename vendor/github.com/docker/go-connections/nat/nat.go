@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package nat is a convenience package for manipulation of strings describing network ports.
 package nat
 

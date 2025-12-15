@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package jwriter contains a JSON writer.
 package jwriter
 

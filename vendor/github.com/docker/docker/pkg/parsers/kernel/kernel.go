@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !windows
 
 // Package kernel provides helper function to get, parse and compare kernel

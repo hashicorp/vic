@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !windows,!nacl,!plan9
 
 package logrus_syslog

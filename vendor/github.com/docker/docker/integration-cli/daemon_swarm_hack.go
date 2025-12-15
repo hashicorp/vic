@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package main
 
 import "github.com/go-check/check"

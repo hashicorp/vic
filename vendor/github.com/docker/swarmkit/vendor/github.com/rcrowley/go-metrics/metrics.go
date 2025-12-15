@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Go port of Coda Hale's Metrics library
 //
 // <https://github.com/rcrowley/go-metrics>

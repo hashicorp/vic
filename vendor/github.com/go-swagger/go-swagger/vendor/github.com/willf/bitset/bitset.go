@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package bitset implements bitsets, a mapping
 between non-negative integers and boolean values. It should be more

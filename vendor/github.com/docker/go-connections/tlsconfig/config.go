@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package tlsconfig provides primitives to retrieve secure-enough TLS configurations for both clients and servers.
 //
 // As a reminder from https://golang.org/pkg/crypto/tls/#Config:

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 //+build ignore
 
 // types_generate.go is meant to run with go generate. It will use

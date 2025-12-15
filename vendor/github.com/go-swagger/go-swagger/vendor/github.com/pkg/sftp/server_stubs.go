@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !cgo,!plan9 windows android
 
 package sftp

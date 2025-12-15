@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // nsync package provides a set of primitives that are not provided by standard Go library.
 //
 // NamedMutex - a map of dynamically created mutexes by a referred name.

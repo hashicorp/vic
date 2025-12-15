@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package inject provides utilities for mapping and injecting dependencies in various ways.
 package inject
 

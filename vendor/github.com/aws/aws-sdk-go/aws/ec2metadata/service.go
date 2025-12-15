@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package ec2metadata provides the client for making API calls to the
 // EC2 Metadata service.
 package ec2metadata

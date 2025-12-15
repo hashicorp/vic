@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build solaris
 
 package system

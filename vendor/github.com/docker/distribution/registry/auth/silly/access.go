@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package silly provides a simple authentication scheme that checks for the
 // existence of an Authorization header and issues access if is present and
 // non-empty.

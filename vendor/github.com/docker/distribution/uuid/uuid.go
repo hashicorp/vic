@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package uuid provides simple UUID generation. Only version 4 style UUIDs
 // can be generated.
 //

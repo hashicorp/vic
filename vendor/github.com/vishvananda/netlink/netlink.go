@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package netlink provides a simple library for netlink. Netlink is
 // the interface a user-space program in linux uses to communicate with
 // the kernel. It can be used to add and remove interfaces, set up ip

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package pretty provides pretty-printing for Go values. This is
 // useful during debugging, to avoid wrapping long output lines in
 // the terminal.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package secconf implements secconf encoding as specified in the following
 // format:
 //

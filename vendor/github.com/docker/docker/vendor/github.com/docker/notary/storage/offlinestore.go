@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package storage
 
 // ErrOffline is used to indicate we are operating offline

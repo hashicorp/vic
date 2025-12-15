@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // TODO: under unit test
 
 package reporting

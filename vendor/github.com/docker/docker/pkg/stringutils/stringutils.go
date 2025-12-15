@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package stringutils provides helper functions for dealing with strings.
 package stringutils
 

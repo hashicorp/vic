@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package flags
 
 func levenshtein(s string, t string) int {

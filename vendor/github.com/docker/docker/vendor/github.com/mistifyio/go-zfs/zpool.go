@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package zfs
 
 // ZFS zpool states, which can indicate if a pool is online, offline,

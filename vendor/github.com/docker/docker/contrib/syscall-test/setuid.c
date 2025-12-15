@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 #include <sys/types.h>
 #include <unistd.h>
 #include <stdio.h>

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package useragent provides helper functions to pack
 // version information into a single User-Agent header.
 package useragent

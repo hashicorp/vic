@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package manifest
 
 // Versioned provides a struct with the manifest schemaVersion and mediaType.

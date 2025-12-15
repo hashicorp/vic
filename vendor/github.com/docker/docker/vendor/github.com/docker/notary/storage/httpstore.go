@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // A Store that can fetch and set metadata on a remote server.
 // Some API constraints:
 // - Response bodies for error codes should be unmarshallable as:

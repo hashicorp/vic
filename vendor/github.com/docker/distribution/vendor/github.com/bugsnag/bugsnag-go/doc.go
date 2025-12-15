@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package bugsnag captures errors in real-time and reports them to Bugsnag (http://bugsnag.com).
 

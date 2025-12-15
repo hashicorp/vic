@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package memberlist
 
 // MergeDelegate is used to involve a client in

@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 # https://github.com/maruel/pre-commit-go configuration file to run checks
 # automatically on commit, on push and on continuous integration service after
 # a push or on merge of a pull request.

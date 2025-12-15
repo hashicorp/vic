@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package metrics
 
 func sumFloat64(vs ...float64) float64 {

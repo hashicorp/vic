@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // This file contains just a few generic helpers which are used by the
 // other test files.
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package web provides a fast and flexible middleware stack and mux.
 

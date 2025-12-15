@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package fluentd provides the log driver for forwarding server logs
 // to fluentd endpoints.
 package fluentd

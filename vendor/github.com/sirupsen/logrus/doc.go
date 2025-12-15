@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package logrus is a structured logger for Go, completely API compatible with the standard library logger.
 

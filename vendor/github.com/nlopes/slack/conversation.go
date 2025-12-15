@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package slack
 
 // Conversation is the foundation for IM and BaseGroupConversation

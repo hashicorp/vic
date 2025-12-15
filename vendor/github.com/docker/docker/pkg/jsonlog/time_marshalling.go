@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package jsonlog provides helper functions to parse and print time (time.Time) as JSON.
 package jsonlog
 

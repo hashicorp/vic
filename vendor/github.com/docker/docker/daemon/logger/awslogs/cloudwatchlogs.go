@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package awslogs provides the logdriver for forwarding container logs to Amazon CloudWatch Logs
 package awslogs
 

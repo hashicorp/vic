@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test that context.Context is the first arg to a function.
 
 // Package foo ...

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 //go:generate msgp
 
 package fluent

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package plugins provides structures and helper functions to manage Docker
 // plugins.
 //

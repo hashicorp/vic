@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // go list ./... and go test ./... will not pick up this package without this
 // file, because go ? ./... does not honor build tags.
 

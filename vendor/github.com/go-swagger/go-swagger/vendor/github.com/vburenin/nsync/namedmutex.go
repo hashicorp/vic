@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Mutex that can be acquired by a given name. Makes overall life much easier during handling map key specific updates.
 // Warning: Created named mutexes are never removed.
 

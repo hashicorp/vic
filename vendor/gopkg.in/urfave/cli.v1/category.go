@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package cli
 
 // CommandCategories is a slice of *CommandCategory.

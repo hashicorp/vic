@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Provides an HTTP Transport that implements the `RoundTripper` interface and
 can be used as a built in replacement for the standard library's, providing:

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package client is a CT log client implementation and contains types and code
 // for interacting with RFC6962-compliant CT Log instances.
 // See http://tools.ietf.org/html/rfc6962 for details

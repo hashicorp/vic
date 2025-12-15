@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package checker provides Docker specific implementations of the go-check.Checker interface.
 package checker
 

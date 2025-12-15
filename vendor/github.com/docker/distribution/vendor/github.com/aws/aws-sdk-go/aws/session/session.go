@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package session provides a way to create service clients with shared configuration
 // and handlers.
 //

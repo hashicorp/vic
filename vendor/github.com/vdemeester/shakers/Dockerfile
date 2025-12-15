@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 FROM golang:1.5
 
 RUN go get golang.org/x/tools/cmd/cover

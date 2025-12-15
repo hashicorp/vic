@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Credits: https://gist.github.com/jaybill/2876519
 package watch
 

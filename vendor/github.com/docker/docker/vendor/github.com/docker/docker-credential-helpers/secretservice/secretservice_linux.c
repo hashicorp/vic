@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 #include <string.h>
 #include <stdlib.h>
 #include "secretservice_linux.h"

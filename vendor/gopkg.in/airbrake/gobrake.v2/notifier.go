@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package gobrake // import "gopkg.in/airbrake/gobrake.v2"
 
 import (

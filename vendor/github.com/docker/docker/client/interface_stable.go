@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package client
 
 // APIClient is an interface that clients that talk with a docker server must implement.

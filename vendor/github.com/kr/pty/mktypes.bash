@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Copyright IBM Corp. 2016, 2025
+
 
 GOOSARCH="${GOOS}_${GOARCH}"
 case "$GOOSARCH" in

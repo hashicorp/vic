@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package sockets provides helper functions to create and configure Unix or TCP sockets.
 package sockets
 

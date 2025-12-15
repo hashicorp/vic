@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package changelist
 
 // memChangeList implements a simple in memory change list.

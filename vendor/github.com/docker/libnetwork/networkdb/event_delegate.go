@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package networkdb
 
 import "github.com/hashicorp/memberlist"

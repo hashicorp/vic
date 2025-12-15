@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package handlers is a collection of handlers (aka "HTTP middleware") for use
 with Go's net/http package (or any framework supporting http.Handler).

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package slack
 
 // FileActionEvent represents the File action event

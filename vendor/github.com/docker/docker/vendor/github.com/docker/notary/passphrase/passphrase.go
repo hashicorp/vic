@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package passphrase is a utility function for managing passphrase
 // for TUF and Notary keys.
 package passphrase

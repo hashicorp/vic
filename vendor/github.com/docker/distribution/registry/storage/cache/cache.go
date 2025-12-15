@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package cache provides facilities to speed up access to the storage
 // backend.
 package cache

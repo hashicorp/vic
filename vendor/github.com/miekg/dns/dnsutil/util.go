@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package dnsutil contains higher-level methods useful with the dns
 // package.  While package dns implements the DNS protocols itself,
 // these functions are related but not directly required for protocol

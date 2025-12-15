@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build amd64,!appengine
 
 package bitset

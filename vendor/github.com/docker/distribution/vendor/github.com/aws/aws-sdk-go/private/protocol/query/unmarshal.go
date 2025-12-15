@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package query
 
 //go:generate go run ../../../models/protocol_tests/generate.go ../../../models/protocol_tests/output/query.json unmarshal_test.go

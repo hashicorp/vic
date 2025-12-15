@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package aaparser is a convenience package interacting with `apparmor_parser`.
 package aaparser
 

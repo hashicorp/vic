@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build linux,arm64 linux,amd64 linux,ppc linux,ppc64 linux,ppc64le linux,s390x
 
 package system

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package specs
 
 // State holds information about the runtime state of the container.

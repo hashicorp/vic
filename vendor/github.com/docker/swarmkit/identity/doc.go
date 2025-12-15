@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package identity provides functionality for generating and manager
 // identifiers within swarm. This includes entity identification, such as that
 // of Service, Task and Network but also cryptographically-secure Node identity.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package bolt implements a low-level key/value store in pure Go. It supports
 fully serializable transactions, ACID semantics, and lock-free MVCC with

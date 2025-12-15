@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 #ifndef CERT_TRANS_VERSION_H_
 #define CERT_TRANS_VERSION_H_
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // These tests verify the test running logic.
 
 package check_test

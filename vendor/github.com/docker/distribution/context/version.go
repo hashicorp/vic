@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package context
 
 // WithVersion stores the application version in the context. The new context

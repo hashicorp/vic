@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package registrar provides name registration. It reserves a name to a given key.
 package registrar
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package assert contains functions for making assertions in unit tests
 package assert
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test that exported names have correct comments.
 
 // Package pkg does something.

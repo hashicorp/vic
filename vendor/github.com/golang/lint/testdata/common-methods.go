@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test that we don't nag for comments on common methods.
 // OK
 

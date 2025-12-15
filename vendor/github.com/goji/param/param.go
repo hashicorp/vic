@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package param deserializes parameter values into a given struct using magical
 reflection ponies. Inspired by gorilla/schema, but uses Rails/jQuery style param

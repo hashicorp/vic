@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package dns
 
 // Holds a bunch of helper functions for dealing with labels.

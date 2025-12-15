@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build freebsd solaris darwin
 
 // Package platform provides helper function to get the runtime architecture

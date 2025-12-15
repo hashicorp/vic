@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 #ifndef USE_LIBSQLITE3
 #include "code/sqlite3-binding.h"
 #else

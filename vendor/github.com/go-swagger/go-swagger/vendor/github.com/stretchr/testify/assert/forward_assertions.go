@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package assert
 
 // Assertions provides assertion methods around the

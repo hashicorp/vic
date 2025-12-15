@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // termbox is a library for creating cross-platform text-based interfaces
 package termbox
 

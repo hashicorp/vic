@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package etcd
 
 // Get gets the file or directory associated with the given key.

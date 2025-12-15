@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package denco provides fast URL router.
 package denco
 

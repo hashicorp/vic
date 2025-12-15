@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package runconfig
 
 import "github.com/docker/docker/api/types/container"

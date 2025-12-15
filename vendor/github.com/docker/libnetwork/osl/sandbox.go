@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package osl describes structures and interfaces which abstract os entities
 package osl
 

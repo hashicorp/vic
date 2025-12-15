@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // The panicwrap package provides functions for capturing and handling
 // panics in your application. It does this by re-executing the running
 // application and monitoring stderr for any panics. At the same time,

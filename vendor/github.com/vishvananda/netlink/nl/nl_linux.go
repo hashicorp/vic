@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package nl has low level primitives for making Netlink calls.
 package nl
 

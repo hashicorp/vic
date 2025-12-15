@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package oci
 
 import specs "github.com/opencontainers/runtime-spec/specs-go"

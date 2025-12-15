@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build linux
 
 // Package gelf provides the log driver for forwarding server logs to

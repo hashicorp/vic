@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package parser implements a parser and parse tree dumper for Dockerfiles.
 package parser
 

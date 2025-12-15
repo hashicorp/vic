@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package locker provides a mechanism for creating finer-grained locking to help
 free up more global locks to handle other tasks.

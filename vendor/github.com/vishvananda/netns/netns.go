@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package netns allows ultra-simple network namespace handling. NsHandles
 // can be retrieved and set. Note that the current namespace is thread
 // local so actions that set and reset namespaces should use LockOSThread

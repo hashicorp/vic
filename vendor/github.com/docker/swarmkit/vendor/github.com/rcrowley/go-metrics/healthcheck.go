@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package metrics
 
 // Healthchecks hold an error value describing an arbitrary up/down status.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package opts holds the DialOpts struct, configurable by
 // cloud.ClientOptions to set up transports for cloud packages.
 //

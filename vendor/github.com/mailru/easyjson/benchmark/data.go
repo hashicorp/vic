@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package benchmark provides a simple benchmark for easyjson against default serialization and ffjson.
 // The data example is taken from https://dev.twitter.com/rest/reference/get/search/tweets
 package benchmark

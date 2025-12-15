@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package client
 
 // DefaultDockerHost defines os specific default if DOCKER_HOST is unset

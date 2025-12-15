@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package storage provides clients for Microsoft Azure Storage Services.
 package storage
 

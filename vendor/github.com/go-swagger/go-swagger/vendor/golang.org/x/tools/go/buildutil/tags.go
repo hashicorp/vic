@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package buildutil
 
 // This logic was copied from stringsFlag from $GOROOT/src/cmd/go/build.go.

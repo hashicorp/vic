@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package config contains the configuration logic for CFSSL.
 package config
 

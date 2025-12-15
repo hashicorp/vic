@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package pkcs7 implements the subset of the CMS PKCS #7 datatype that is typically
 // used to package certificates and CRLs.  Using openssl, every certificate converted
 // to PKCS #7 format from another encoding such as PEM conforms to this implementation.

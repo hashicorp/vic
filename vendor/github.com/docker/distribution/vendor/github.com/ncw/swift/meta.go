@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Metadata manipulation in and out of Headers
 
 package swift

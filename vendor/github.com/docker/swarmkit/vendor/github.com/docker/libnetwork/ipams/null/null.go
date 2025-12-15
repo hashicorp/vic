@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package null implements the null ipam driver. Null ipam driver satisfies ipamapi contract,
 // but does not effectively reserve/allocate any address pool or address
 package null

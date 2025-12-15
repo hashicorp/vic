@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package token defines constants representing the lexical tokens for HCL
 // (HashiCorp Configuration Language)
 package token

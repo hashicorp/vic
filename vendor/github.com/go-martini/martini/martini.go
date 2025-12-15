@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package martini is a powerful package for quickly writing modular web applications/services in Golang.
 //
 // For a full guide visit http://github.com/go-martini/martini

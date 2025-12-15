@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package memberlist
 
 // AliveDelegate is used to involve a client in processing

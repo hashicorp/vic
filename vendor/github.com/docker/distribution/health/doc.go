@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package health provides a generic health checking framework.
 // The health package works expvar style. By importing the package the debug
 // server is getting a "/debug/health" endpoint that returns the current

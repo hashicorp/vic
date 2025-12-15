@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package types
 
 // AuthConfig contains authorization information for connecting to a Registry

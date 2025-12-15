@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package osl
 
 // NewSandbox provides a new sandbox instance created in an os specific way

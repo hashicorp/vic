@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package memberlist
 
 // Delegate is the interface that clients must implement if they want to hook

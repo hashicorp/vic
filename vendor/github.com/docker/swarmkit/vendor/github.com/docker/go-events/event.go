@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package events
 
 // Event marks items that can be sent as events.

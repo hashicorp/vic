@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package dns
 
 // NameUsed sets the RRs in the prereq section to

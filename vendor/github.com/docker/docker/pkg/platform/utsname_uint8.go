@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build linux,arm linux,ppc64 linux,ppc64le s390x
 // see golang's sources src/syscall/ztypes_linux_*.go that use uint8
 

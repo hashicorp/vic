@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package assertions contains the implementations for all assertions which
 // are referenced in goconvey's `convey` package
 // (github.com/smartystreets/goconvey/convey) and gunit (github.com/smartystreets/gunit)

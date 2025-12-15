@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package le_go provides a Golang client library for logging to
 // logentries.com over a TCP connection.
 //

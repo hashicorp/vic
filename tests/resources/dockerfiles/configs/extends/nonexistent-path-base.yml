@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 dnebase:
   build: nonexistent.path
   command: /bin/true

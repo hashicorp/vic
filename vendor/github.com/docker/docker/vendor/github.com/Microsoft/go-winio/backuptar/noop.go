@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !windows
 // This file only exists to allow go get on non-Windows platforms.
 

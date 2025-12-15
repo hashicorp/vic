@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package pty provides functions for working with Unix terminals.
 package pty
 

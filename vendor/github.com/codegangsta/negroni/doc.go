@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package negroni is an idiomatic approach to web middleware in Go. It is tiny, non-intrusive, and encourages use of net/http Handlers.
 //
 // If you like the idea of Martini, but you think it contains too much magic, then Negroni is a great fit.

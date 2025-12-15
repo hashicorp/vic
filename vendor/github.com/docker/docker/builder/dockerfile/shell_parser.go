@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package dockerfile
 
 // This will take a single word and an array of env variables and

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build linux freebsd darwin openbsd solaris
 
 package layer

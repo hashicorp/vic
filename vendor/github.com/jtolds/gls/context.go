@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package gls implements goroutine-local storage.
 package gls
 

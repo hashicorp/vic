@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package oss provides a storagedriver.StorageDriver implementation to
 // store blobs in Aliyun OSS cloud storage.
 //

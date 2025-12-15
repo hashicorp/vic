@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package govalidator
 
 // Errors is an array of multiple errors and conforms to the error interface.

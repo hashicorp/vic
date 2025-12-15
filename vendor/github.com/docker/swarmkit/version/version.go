@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package version
 
 // Package is the overall, canonical project import path under which the

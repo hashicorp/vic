@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test of code that is malformed, but accepted by go/parser.
 // See https://golang.org/issue/11271 for discussion.
 // OK

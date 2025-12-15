@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build linux
 
 // Internal functions for libseccomp Go bindings

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !darwin,!dragonfly,!freebsd,!linux,!netbsd,!openbsd
 
 package raw

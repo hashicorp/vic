@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 # Build a minimal distribution container
 
 FROM alpine:3.4

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package registry contains client primitives to interact with a remote Docker registry.
 package registry
 

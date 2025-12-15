@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package v4 implements signing for AWS V4 signer
 //
 // Provides request signing for request that need to be signed with

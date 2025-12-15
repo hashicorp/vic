@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package fluent
 
 // NOTE: THIS FILE WAS PRODUCED BY THE

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package api represents all requests and responses suitable for conversation
 with a remote driver.

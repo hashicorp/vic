@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package introspect provides some utilities for dealing with the DBus
 // introspection format.
 package introspect

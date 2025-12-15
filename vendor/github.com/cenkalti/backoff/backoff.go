@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package backoff implements backoff algorithms for retrying operations.
 //
 // Use Retry function for retrying operations that may fail.

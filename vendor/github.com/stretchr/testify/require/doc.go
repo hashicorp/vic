@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package require implements the same assertions as the `assert` package but
 // stops test execution when a test fails.
 //

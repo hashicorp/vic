@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package allocator aims to manage allocation of different
 // cluster-wide resources on behalf of the manager. In particular, it
 // manages a set of independent allocator processes which can mostly

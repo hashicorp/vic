@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package dbus implements bindings to the D-Bus message bus system.
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build ignore
 
 // Simple tool to create an archive stream from an old and new directory

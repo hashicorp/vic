@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package colwriter provides a write filter that formats
 // input lines in multiple columns.
 //

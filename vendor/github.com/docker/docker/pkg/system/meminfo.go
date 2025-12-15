@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package system
 
 // MemInfo contains memory statistics of the host system.

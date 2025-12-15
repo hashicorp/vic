@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package ipamapi specifies the contract the IPAM service (built-in or remote) needs to satisfy.
 package ipamapi
 

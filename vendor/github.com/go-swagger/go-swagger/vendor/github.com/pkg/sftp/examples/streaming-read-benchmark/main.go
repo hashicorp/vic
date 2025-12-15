@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // streaming-read-benchmark benchmarks the peformance of reading
 // from /dev/zero on the server to /dev/null on the client via io.Copy.
 package main

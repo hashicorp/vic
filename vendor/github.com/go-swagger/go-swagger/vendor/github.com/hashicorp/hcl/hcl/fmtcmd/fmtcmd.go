@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Derivative work from:
 //	- https://golang.org/src/cmd/gofmt/gofmt.go
 //	- https://github.com/fatih/hclfmt

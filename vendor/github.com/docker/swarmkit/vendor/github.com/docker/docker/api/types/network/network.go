@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package network
 
 // Address represents an IP address

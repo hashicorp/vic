@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Example of use of the flags package.
 package flags
 

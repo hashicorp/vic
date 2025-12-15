@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package parser
 
 import "github.com/hashicorp/hcl/hcl/ast"

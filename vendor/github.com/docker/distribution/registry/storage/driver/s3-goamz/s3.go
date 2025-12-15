@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package s3 provides a storagedriver.StorageDriver implementation to
 // store blobs in Amazon S3 cloud storage.
 //

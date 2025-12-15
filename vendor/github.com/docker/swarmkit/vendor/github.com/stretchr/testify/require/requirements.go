@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package require
 
 // TestingT is an interface wrapper around *testing.T

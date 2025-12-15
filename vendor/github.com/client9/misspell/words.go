@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package misspell
 
 // DictMain is the main rule set, not including locale-specific spellings

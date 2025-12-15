@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package zk is a native Go client library for the ZooKeeper orchestration service.
 package zk
 

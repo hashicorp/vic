@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package resumable registers resumable versions of hash functions. Resumable
 // varieties of hash functions are available via the standard crypto package.
 // Support can be checked by type assertion against the resumable.Hash

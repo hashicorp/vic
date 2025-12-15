@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package asm provides the API for streaming assembly and disassembly of tar
 archives.

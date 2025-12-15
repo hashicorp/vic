@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package dns
 
 // These raw* functions do not use reflection, they directly set the values

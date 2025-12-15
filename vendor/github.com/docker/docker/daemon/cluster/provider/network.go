@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package provider
 
 import "github.com/docker/docker/api/types"

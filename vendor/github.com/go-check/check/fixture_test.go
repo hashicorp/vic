@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Tests for the behavior of the test fixture system.
 
 package check_test

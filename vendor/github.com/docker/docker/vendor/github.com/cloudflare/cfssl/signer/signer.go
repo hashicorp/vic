@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package signer implements certificate signature functionality for CFSSL.
 package signer
 

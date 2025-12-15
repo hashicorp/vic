@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package htpasswd provides a simple authentication scheme that checks for the
 // user credential hash in an htpasswd formatted file in a configuration-determined
 // location.

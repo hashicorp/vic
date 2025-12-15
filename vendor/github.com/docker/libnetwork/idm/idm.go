@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package idm manages reservation/release of numerical ids from a configured set of contiguous ids
 package idm
 

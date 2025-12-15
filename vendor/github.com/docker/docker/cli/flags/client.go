@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package flags
 
 // ClientOptions are the options used to configure the client cli

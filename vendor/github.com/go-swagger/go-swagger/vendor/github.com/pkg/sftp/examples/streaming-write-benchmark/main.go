@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // streaming-write-benchmark benchmarks the peformance of writing
 // from /dev/zero on the client to /dev/null on the server via io.Copy.
 package main

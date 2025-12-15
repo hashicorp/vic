@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !windows
 // This file contains a simple and incomplete implementation of the terminfo
 // database. Information was taken from the ncurses manpages term(5) and

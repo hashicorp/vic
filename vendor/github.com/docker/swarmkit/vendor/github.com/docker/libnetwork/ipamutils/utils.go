@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package ipamutils provides utility functions for ipam management
 package ipamutils
 

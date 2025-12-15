@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package resolvconf provides utility code to query and update DNS configuration in /etc/resolv.conf
 package resolvconf
 

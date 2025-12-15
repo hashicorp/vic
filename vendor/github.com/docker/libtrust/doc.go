@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package libtrust provides an interface for managing authentication and
 authorization using public key cryptography. Authentication is handled

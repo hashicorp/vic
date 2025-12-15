@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package main
 
 // sleepCommandForDaemonPlatform is a helper function that determines what

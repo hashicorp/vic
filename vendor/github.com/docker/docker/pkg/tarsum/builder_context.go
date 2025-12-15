@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package tarsum
 
 // BuilderContext is an interface extending TarSum by adding the Remove method.

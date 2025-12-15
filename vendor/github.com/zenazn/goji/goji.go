@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package goji provides an out-of-box web server with reasonable defaults.
 

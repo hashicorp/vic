@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package prometheus
 
 // Inline and byte-free variant of hash/fnv's fnv64a.

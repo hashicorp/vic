@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package azure provides a storagedriver.StorageDriver implementation to
 // store blobs in Microsoft Azure Blob Storage Service.
 package azure

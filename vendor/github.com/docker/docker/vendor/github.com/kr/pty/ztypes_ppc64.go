@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build ppc64
 
 // Created by cgo -godefs - DO NOT EDIT

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build amd64,freebsd
 // Created by cgo -godefs - DO NOT EDIT
 // cgo -godefs types_freebsd.go

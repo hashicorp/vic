@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package v2 describes routes, urls and the error codes used in the Docker
 // Registry JSON HTTP API V2. In addition to declarations, descriptors are
 // provided for routes and error codes that can be used for implementation and

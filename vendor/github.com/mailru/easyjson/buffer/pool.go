@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package buffer implements a buffer for serialization, consisting of a chain of []byte-s to
 // reduce copying and to allow reuse of individual chunks.
 package buffer

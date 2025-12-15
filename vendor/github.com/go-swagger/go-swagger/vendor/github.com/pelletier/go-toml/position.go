@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Position support for go-toml
 
 package toml

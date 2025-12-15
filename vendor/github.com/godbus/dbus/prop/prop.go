@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package prop provides the Properties struct which can be used to implement
 // org.freedesktop.DBus.Properties.
 package prop

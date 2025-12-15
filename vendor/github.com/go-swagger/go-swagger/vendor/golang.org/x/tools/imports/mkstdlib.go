@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build ignore
 
 // mkstdlib generates the zstdlib.go file, containing the Go standard

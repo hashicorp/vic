@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package command contains the set of Dockerfile commands.
 package command
 

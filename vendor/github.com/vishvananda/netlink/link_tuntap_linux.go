@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package netlink
 
 // ideally golang.org/x/sys/unix would define IfReq but it only has

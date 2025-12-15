@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package tailfile provides helper functions to read the nth lines of any
 // ReadSeeker.
 package tailfile

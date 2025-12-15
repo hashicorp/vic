@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package splunk provides the log driver for forwarding server logs to
 // Splunk HTTP Event Collector endpoint.
 package splunk

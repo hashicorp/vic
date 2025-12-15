@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package tarsum provides algorithms to perform checksum calculation on
 // filesystem layers.
 //

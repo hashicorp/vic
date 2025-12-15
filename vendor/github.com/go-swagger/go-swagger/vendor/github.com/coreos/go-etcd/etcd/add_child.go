@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package etcd
 
 // Add a new directory with a random etcd-generated key under the given path.

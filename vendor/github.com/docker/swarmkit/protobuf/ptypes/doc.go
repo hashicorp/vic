@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package ptypes is a copy of the golang/protobuf/ptypes that we'll need to
 // use with our regenerated ptypes until google gets their act together and
 // makes their "Well Known Types" actually usable by other parties.

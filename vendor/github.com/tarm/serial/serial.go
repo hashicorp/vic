@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Goserial is a simple go package to allow you to read and write from
 the serial port as a stream of bytes.

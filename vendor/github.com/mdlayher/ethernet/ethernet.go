@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package ethernet implements marshaling and unmarshaling of IEEE 802.3
 // Ethernet II frames and IEEE 802.1Q VLAN tags.
 package ethernet

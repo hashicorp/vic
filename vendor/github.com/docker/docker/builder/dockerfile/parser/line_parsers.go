@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package parser
 
 // line parsers are dispatch calls that parse a single unit of text into a

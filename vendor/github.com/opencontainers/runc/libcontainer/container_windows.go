@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package libcontainer
 
 // State represents a running container's state

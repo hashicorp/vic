@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package libcontainerd
 
 // processCommon are the platform common fields as part of the process structure

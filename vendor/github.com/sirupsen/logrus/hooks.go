@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package logrus
 
 // A hook to be fired when logging on the logging levels returned from

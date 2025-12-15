@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package discoverapi
 
 // Discover is an interface to be implemented by the component interested in receiving discover events

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package fs provides filesystem-related functions.
 package fs
 

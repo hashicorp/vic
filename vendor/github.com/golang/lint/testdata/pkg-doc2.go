@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test of package comment in an incorrect form.
 
 // Some random package doc that isn't in the right form.

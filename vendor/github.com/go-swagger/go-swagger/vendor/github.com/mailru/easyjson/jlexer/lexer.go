@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package jlexer contains a JSON lexer implementation.
 //
 // It is expected that it is mostly used with generated parser code, so the interface is tuned

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package dockerfile
 
 // internals for handling commands. Covers many areas and a lot of

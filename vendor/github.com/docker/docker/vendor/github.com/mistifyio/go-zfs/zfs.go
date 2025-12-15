@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package zfs provides wrappers around the ZFS command line tools.
 package zfs
 

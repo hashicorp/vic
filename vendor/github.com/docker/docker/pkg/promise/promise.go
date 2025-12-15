@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package promise
 
 // Go is a basic promise implementation: it wraps calls a function in a goroutine,

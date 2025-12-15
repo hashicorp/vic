@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Copyright IBM Corp. 2016, 2025
+
 set -e
 
 # List of bundles to create when no argument is passed

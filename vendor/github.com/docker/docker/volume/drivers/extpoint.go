@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 //go:generate pluginrpc-gen -i $GOFILE -o proxy.go -type volumeDriver -name VolumeDriver
 
 package volumedrivers

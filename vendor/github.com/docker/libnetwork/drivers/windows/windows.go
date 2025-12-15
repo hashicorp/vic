@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build windows
 
 // Shim for the Host Network Service (HNS) to manage networking for

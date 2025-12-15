@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test for docs in const blocks
 
 // Package foo ...

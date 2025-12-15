@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package graceful implements graceful shutdown for HTTP servers by closing idle
 connections after receiving a signal. By default, this package listens for

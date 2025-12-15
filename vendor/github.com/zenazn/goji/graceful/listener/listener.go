@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package listener provides a way to incorporate graceful shutdown to any
 net.Listener.

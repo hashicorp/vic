@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package mount
 
 // Info reveals information about a particular mounted filesystem. This

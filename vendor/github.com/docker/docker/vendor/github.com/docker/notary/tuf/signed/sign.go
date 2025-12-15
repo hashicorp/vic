@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package signed
 
 // The Sign function is a choke point for all code paths that do signing.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package helpers implements utility functionality common to many
 // CFSSL packages.
 package helpers

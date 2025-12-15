@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // TOML lexer.
 //
 // Written using the principles developed by Rob Pike in

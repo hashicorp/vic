@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package bind provides a convenient way to bind to sockets. It exposes a flag in
 the default flag set named "bind" which provides syntax to bind TCP and UNIX

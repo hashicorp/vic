@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // TODO: in order for this reporter to be completely honest
 // we need to retrofit to be more like the json reporter such that:
 // 1. it maintains ScopeResult collections, which count assertions

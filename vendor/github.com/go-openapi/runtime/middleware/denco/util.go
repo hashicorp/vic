@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package denco
 
 // NextSeparator returns an index of next separator in path.

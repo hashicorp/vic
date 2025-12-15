@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package digest provides a generalized type to opaquely represent message
 // digests and their operations within the registry. The Digest type is
 // designed to serve as a flexible identifier in a content-addressable system.

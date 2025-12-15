@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package etcd
 
 //go:generate codecgen -d 1978 -o response.generated.go response.go

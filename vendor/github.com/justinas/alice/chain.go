@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package alice provides a convenient way to chain http handlers.
 package alice
 

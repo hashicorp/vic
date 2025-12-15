@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // docker-proxy provides a network Proxy interface and implementations for TCP
 // and UDP.
 package main

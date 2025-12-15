@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package logging provides access to the Google Cloud Logging API.
 //
 // See https://cloud.google.com/logging/docs/

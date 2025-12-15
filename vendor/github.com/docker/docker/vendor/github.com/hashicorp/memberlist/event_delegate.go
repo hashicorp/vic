@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package memberlist
 
 // EventDelegate is a simpler delegate that is used only to receive

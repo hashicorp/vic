@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package ast declares the types used to represent syntax trees for HCL
 // (HashiCorp Configuration Language)
 package ast

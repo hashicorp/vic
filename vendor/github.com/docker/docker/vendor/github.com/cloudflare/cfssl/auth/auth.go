@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package auth implements an interface for providing CFSSL
 // authentication. This is meant to authenticate a client CFSSL to a
 // remote CFSSL in order to prevent unauthorised use of the signature

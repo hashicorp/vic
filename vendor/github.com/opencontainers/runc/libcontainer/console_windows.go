@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package libcontainer
 
 // NewConsole returns an initalized console that can be used within a container

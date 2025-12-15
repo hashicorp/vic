@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package cors is net/http handler to handle CORS related requests
 as defined by http://www.w3.org/TR/cors/

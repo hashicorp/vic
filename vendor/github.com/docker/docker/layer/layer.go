@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package layer is package for managing read-only
 // and read-write mounts on the union file system
 // driver. Read-only mounts are referenced using a

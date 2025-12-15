@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package mock provides a system by which it is possible to mock your objects
 // and verify calls are happening as expected.
 //

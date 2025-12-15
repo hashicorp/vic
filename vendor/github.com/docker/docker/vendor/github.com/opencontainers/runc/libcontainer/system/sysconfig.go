@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build cgo,linux cgo,freebsd
 
 package system

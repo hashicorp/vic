@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package quantile computes approximate quantiles over an unbounded data
 // stream within low memory and CPU bounds.
 //

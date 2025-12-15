@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package toml
 
 // Tools to convert a TomlTree to different representations

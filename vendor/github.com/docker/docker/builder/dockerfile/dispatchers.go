@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package dockerfile
 
 // This file contains the dispatchers for each command. Note that

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package parsers provides helper functions to parse and validate different type
 // of string. It can be hosts, unix addresses, tcp addresses, filters, kernel
 // operating system versions.

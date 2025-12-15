@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package syslog provides the logdriver for forwarding server logs to syslog endpoints.
 package syslog
 

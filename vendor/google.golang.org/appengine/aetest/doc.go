@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package aetest provides an API for running dev_appserver for use in tests.
 

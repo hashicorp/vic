@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package notary
 
 // PassRetriever is a callback function that should retrieve a passphrase

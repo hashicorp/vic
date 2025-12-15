@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 #include "osxkeychain_darwin.h"
 #include <CoreFoundation/CoreFoundation.h>
 #include <stdio.h>

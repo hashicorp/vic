@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test for not using fmt.Errorf or testing.Errorf.
 
 // Package foo ...

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Created by cgo -godefs - DO NOT EDIT
 // cgo -godefs syscalls.go
 

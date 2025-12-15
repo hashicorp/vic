@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package errors provides errors that have stack-traces.
 package errors
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package query provides serialization of AWS query requests, and responses.
 package query
 

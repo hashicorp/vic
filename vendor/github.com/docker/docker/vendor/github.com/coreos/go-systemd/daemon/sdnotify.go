@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Code forked from Docker project
 package daemon
 

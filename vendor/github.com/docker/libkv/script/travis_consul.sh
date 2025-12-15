@@ -1,4 +1,6 @@
 #!/bin/bash
+# Copyright IBM Corp. 2016, 2025
+
 
 if [  $# -gt 0 ] ; then
     CONSUL_VERSION="$1"

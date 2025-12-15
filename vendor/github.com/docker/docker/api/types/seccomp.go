@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package types
 
 // Seccomp represents the config for a seccomp profile for syscall restriction.

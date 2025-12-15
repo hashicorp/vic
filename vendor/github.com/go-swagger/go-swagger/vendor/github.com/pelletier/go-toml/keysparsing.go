@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Parsing keys handling both bare and quoted keys.
 
 package toml

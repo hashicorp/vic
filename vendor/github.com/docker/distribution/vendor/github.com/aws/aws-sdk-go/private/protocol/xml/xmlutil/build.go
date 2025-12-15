@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package xmlutil provides XML serialisation of AWS requests and responses.
 package xmlutil
 

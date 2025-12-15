@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Command etherecho broadcasts a message to all machines in the same network
 // segment, and listens for other messages from other etherecho servers.
 //

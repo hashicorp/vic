@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // buffered-write-benchmark benchmarks the peformance of writing
 // a single large []byte on the client to /dev/null on the server via io.Copy.
 package main

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package options provides a way to pass unstructured sets of options to a
 // component expecting a strongly-typed configuration structure.
 package options

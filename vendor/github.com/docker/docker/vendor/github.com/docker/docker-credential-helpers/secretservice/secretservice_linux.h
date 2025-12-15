@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 #define SECRET_WITH_UNSTABLE 1
 #define SECRET_API_SUBJECT_TO_CHANGE 1
 #include <libsecret/secret.h>

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package commands
 
 import "github.com/go-swagger/go-swagger/cmd/swagger/commands/initcmd"

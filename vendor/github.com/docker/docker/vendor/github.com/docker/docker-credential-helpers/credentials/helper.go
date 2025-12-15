@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package credentials
 
 // Helper is the interface a credentials store helper must implement.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package info contains the definitions for the info endpoint
 package info
 

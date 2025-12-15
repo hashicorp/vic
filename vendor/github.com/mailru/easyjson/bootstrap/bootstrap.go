@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package bootstrap implements the bootstrapping logic: generation of a .go file to
 // launch the actual generator and launching the generator itself.
 //

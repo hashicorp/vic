@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // This file is generated with "go test -tags generate". DO NOT EDIT!
 // +build !generate
 

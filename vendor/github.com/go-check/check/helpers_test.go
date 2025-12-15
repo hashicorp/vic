@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // These tests verify the inner workings of the helper methods associated
 // with check.T.
 

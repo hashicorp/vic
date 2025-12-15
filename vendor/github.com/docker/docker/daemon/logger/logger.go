@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package logger defines interfaces that logger drivers implement to
 // log messages.
 //

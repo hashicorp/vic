@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package initca contains code to initialise a certificate authority,
 // generating a new root key and certificate.
 package initca

@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 #ifndef NSENTER_NAMESPACE_H
 #define NSENTER_NAMESPACE_H
 

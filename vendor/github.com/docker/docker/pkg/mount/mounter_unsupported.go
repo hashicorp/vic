@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !linux,!freebsd,!solaris freebsd,!cgo solaris,!cgo
 
 package mount

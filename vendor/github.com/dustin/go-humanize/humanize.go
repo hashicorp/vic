@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package humanize converts boring ugly numbers to human-friendly strings and back.
 

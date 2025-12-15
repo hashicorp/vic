@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build pkcs11
 
 // an interface around the pkcs11 library, so that things can be mocked out

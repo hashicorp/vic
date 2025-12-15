@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package wim implements a WIM file parser.
 //
 // WIM files are used to distribute Windows file system and container images.

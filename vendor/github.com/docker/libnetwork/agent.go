@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package libnetwork
 
 //go:generate protoc -I.:Godeps/_workspace/src/github.com/gogo/protobuf  --gogo_out=import_path=github.com/docker/libnetwork,Mgogoproto/gogo.proto=github.com/gogo/protobuf/gogoproto:. agent.proto

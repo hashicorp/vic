@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package slack
 
 // reactionItem is a lighter-weight item than is returned by the reactions list.

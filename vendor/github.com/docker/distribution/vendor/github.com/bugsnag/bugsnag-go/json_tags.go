@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // The code is stripped from:
 // http://golang.org/src/pkg/encoding/json/tags.go?m=text
 

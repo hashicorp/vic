@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package toml is a TOML markup language parser.
 //
 // This version supports the specification as described in

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package client
 
 import "github.com/docker/libnetwork/types"

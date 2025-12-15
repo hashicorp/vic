@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package types contains types that are common across libnetwork project
 package types
 

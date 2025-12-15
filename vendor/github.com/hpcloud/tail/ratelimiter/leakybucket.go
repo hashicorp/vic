@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package ratelimiter implements the Leaky Bucket ratelimiting algorithm with memcached and in-memory backends.
 package ratelimiter
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package opts
 
 // TODO Windows. Identify bug in GOLang 1.5.1+ and/or Windows Server 2016 TP5.

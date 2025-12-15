@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package gcs provides a storagedriver.StorageDriver implementation to
 // store blobs in Google cloud storage.
 //

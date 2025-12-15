@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/socket.h>

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // An example SFTP server implementation using the golang SSH package.
 // Serves the whole filesystem visible to the user, and has a hard-coded username and password,
 // so not for real use!

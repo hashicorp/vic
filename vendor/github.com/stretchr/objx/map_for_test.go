@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package objx
 
 var TestMap map[string]interface{} = map[string]interface{}{

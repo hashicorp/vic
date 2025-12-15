@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package metrics
 
 // Unit represents the type or precision of a metric that is appended to

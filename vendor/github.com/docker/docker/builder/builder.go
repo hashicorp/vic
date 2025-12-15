@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package builder defines interfaces for any Docker builder to implement.
 //
 // Historically, only server-side Dockerfile interpreters existed.

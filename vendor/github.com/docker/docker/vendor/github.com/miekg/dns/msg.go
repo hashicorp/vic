@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // DNS packet assembly, see RFC 1035. Converting from - Unpack() -
 // and to - Pack() - wire format.
 // All the packers and unpackers take a (msg []byte, off int)

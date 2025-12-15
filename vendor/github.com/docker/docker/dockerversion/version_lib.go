@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !autogen
 
 // Package dockerversion is auto-generated at build-time

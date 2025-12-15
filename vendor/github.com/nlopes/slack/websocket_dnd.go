@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package slack
 
 // DNDUpdatedEvent represents the update event for Do Not Disturb

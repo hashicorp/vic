@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package airbrake // import "gopkg.in/gemnasium/logrus-airbrake-hook.v2"
 
 import (

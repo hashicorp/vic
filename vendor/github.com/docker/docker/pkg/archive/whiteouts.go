@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package archive
 
 // Whiteouts are files with a special meaning for the layered filesystem.

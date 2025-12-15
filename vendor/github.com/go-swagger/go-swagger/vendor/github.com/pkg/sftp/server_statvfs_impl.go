@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build darwin linux,!gccgo
 
 // fill in statvfs structure with OS specific values

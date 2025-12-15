@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package store
 
 import "github.com/docker/swarmkit/api"

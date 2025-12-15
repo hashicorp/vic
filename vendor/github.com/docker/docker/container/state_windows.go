@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package container
 
 // setFromExitStatus is a platform specific helper function to set the state

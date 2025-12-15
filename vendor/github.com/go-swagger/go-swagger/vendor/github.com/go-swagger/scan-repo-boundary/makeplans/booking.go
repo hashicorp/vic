@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package makeplans
 
 // A Booking in the system

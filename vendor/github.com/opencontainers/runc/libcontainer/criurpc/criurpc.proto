@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 message criu_page_server_info {
 	optional string		address	= 1;
 	optional int32		port	= 2;

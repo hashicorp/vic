@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package gls
 
 // though this could probably be better at keeping ids smaller, the goal of

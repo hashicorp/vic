@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package operatingsystem provides helper function to get the operating system
 // name for different platforms.
 package operatingsystem

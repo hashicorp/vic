@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package jsonutil provides JSON serialization of AWS requests and responses.
 package jsonutil
 

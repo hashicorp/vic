@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package main
 
 // small wrapper around sftp server that allows it to be used as a separate process subsystem call by the ssh server.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package bpool
 
 // BytePool implements a leaky pool of []byte in the form of a bounded

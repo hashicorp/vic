@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package objx
 
 // Exclude returns a new Map with the keys in the specified []string

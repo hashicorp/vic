@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package derhelpers implements common functionality
 // on DER encoded data
 package derhelpers

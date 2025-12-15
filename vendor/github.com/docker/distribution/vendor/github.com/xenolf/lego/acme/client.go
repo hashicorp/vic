@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package acme implements the ACME protocol for Let's Encrypt and other conforming providers.
 package acme
 

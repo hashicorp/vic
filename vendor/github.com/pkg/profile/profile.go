@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package profile provides a simple way to manage runtime/pprof
 // profiling of your Go application.
 package profile

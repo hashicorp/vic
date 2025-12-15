@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package pidfile provides structure and helper functions to create and remove
 // PID file. A PID file is usually a file used to store the process ID of a
 // running process.

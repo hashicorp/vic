@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package devmapper
 
 // Definition of struct dm_task and sub structures (from lvm2)

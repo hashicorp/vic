@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Disabling building of yaml support in cases where golang is 1.0 or 1.1
 // as the encoding library is not implemented or supported.
 

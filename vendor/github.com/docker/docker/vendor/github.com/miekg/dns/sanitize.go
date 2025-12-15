@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package dns
 
 // Dedup removes identical RRs from rrs. It preserves the original ordering.

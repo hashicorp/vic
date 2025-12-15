@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package credentials
 
 // ErrCredentialsNotFound standarizes the not found error, so every helper returns

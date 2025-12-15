@@ -1,3 +1,7 @@
+/*
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 #define _GNU_SOURCE
 #include <endian.h>
 #include <errno.h>

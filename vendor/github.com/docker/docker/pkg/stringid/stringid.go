@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package stringid provides helper functions for dealing with string identifiers
 package stringid
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package bridge
 
 type setupStep func(*networkConfiguration, *bridgeInterface) error

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build arm64,linux
 // Created by cgo -godefs - DO NOT EDIT
 // cgo -godefs -- -fsigned-char types_linux.go

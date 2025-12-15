@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package api
 
 // MinVersion represents Minimum REST API version supported

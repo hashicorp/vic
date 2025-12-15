@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 Package libnetwork provides the basic functionality and extension points to
 create network namespaces and allocate interfaces for containers to use.

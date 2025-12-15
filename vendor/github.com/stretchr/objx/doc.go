@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // objx - Go package for dealing with maps, slices, JSON and other data.
 //
 // Overview

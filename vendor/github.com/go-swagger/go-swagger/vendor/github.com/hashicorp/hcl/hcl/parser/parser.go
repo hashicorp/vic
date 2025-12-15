@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package parser implements a parser for HCL (HashiCorp Configuration
 // Language)
 package parser

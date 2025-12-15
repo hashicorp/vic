@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package contextkeytypes verifies that correct types are used as keys in
 // calls to context.WithValue.
 package contextkeytypes

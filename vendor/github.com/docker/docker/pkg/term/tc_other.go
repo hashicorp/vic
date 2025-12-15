@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !windows
 // +build !linux !cgo
 // +build !solaris !cgo

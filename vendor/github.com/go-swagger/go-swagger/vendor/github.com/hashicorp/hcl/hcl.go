@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package hcl decodes HCL into usable Go structures.
 //
 // hcl input can come in either pure HCL format or JSON format.

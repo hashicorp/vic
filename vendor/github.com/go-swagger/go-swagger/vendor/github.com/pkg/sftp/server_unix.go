@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build darwin dragonfly freebsd !android,linux netbsd openbsd solaris
 // +build cgo
 

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // buffered-read-benchmark benchmarks the peformance of reading
 // from /dev/zero on the server to a []byte on the client via io.Copy.
 package main

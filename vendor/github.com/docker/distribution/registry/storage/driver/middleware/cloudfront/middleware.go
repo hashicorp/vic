@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package middleware - cloudfront wrapper for storage libs
 // N.B. currently only works with S3, not arbitrary sites
 //

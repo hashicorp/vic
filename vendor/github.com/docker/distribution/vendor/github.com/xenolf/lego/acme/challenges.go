@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package acme
 
 // Challenge is a string that identifies a particular type and version of ACME challenge.

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !arm,!ppc64,!ppc64le
 
 package bridge

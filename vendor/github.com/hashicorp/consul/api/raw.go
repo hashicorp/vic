@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package api
 
 // Raw can be used to do raw queries against custom endpoints

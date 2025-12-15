@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build s390x,linux
 // Created by cgo -godefs - DO NOT EDIT
 // cgo -godefs -- -fsigned-char types_linux.go

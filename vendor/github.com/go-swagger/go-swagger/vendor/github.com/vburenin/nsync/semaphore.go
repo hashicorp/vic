@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Semaphore implementation that adds so necessary synchronization
 // primitive into Go language. It uses built-in channel with empty struct
 // so it doesn't utilize a lot of memory to buffer acquired elements.

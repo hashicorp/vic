@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package health provides some utility functions to health-check a server. The implementation
 // is based on protobuf. Users need to write their own implementations if other IDLs are used.
 //

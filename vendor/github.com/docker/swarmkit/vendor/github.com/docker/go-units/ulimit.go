@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package ulimit provides structure and helper function to parse and represent
 // resource limits (Rlimit and Ulimit, its human friendly version).
 package units

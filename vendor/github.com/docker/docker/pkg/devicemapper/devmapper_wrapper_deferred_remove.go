@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build linux,!libdm_no_deferred_remove
 
 package devicemapper

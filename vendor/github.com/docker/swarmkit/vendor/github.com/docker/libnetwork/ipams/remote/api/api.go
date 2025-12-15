@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package api defines the data structure to be used in the request/response
 // messages between libnetwork and the remote ipam plugin
 package api

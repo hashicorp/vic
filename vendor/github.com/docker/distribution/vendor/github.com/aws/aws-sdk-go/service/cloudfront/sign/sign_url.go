@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package sign provides utilities to generate signed URLs for Amazon CloudFront.
 //
 // More information about signed URLs and their structure can be found at:

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // The `fwd` package provides a buffered reader
 // and writer. Each has methods that help improve
 // the encoding/decoding performance of some binary

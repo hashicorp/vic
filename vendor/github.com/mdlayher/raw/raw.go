@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package raw enables reading and writing data at the device driver level for
 // a network interface.
 package raw

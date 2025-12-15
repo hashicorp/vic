@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package auth defines a standard interface for request access controllers.
 //
 // An access controller has a simple interface with a single `Authorized`

@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Test for redundant type declaration.
 
 // Package foo ...

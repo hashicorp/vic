@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // gocovmerge takes the results from multiple `go test -coverprofile` runs and
 // merges them into one profile
 package main

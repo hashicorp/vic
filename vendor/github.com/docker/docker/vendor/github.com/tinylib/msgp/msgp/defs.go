@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // This package is the support library for the msgp code generator (http://github.com/tinylib/msgp).
 //
 // This package defines the utilites used by the msgp code generator for encoding and decoding MessagePack

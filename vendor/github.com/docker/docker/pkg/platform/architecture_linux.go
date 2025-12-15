@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package platform provides helper function to get the runtime architecture
 // for different platforms.
 package platform
