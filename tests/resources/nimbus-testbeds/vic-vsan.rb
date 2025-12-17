@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 
 oneGB = 1 * 1000 * 1000 # in KB
 
