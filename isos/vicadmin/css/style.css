@@ -1,3 +1,7 @@
+/**
+ * Copyright IBM Corp. 2016, 2025
+ */
+
 .main-nav .header {background-color: #004A70;}
 .header .github {position: absolute; right:18px; top:6px;}
 .header .logout {position: absolute; right:210px; top:6px}
