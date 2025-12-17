@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 # Building:
 # cp -R /usr/lib/vmware-ovftool/ .
 # docker build --no-cache -t vic-test -f Dockerfile .
