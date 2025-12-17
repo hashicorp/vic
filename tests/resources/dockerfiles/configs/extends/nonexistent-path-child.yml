@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 dnechild:
   extends:
     file: nonexistent-path-base.yml
