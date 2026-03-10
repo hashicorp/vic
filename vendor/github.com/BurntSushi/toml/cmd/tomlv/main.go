@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Command tomlv validates TOML documents and prints each key's type.
 package main
 

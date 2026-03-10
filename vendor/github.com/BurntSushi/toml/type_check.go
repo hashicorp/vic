@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 package toml
 
 // tomlType represents any Go type that corresponds to a TOML type.

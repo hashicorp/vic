@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 common-config:
   environment:
     - FOO=1

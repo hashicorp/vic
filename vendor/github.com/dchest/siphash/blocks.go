@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // +build !arm,!amd64 appengine gccgo
 
 package siphash

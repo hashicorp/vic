@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // registry-api-descriptor-template uses the APIDescriptor defined in the
 // api/v2 package to execute templates passed to the command line.
 //
