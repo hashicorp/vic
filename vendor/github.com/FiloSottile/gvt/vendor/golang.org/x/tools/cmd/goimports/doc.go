@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 /*
 
 Command goimports updates your Go import lines,

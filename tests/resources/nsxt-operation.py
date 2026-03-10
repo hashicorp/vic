@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# Copyright IBM Corp. 2016, 2025
+
 
 import json
 import requests

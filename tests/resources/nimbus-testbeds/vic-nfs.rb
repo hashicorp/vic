@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 require '/mts/git/nimbus/lib/testframeworks/testng/testng.rb'
 oneGB = 1 * 1000 * 1000
 $testbed = Proc.new do |sharedStorageStyle, esxStyle|

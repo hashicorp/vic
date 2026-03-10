@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Package lzx implements a decompressor for the the WIM variant of the
 // LZX compression algorithm.
 //

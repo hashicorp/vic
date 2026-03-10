@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2016, 2025
+
 service:
   image: busybox:latest
   command: top

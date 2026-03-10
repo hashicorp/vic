@@ -1,3 +1,5 @@
+// Copyright IBM Corp. 2016, 2025
+
 // Command toml-test-encoder satisfies the toml-test interface for testing
 // TOML encoders. Namely, it accepts JSON on stdin and outputs TOML on stdout.
 package main
