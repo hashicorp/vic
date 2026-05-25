@@ -2,11 +2,11 @@
 	"version": 0,
 	"dependencies": [
 		{
-			"importpath": "bitbucket.org/pkg/inflect",
-			"repository": "https://bitbucket.org/pkg/inflect",
+			"importpath": "github.com/volatiletech/inflect",
+			"repository": "https://github.com/volatiletech/inflect",
 			"vcs": "",
 			"revision": "8961c3750a47",
-			"branch": "default"
+			"branch": "master"
 		},
 		{
 			"importpath": "cloud.google.com/go/compute/metadata",
