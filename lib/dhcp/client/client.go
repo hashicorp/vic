@@ -88,18 +88,18 @@ func (c *client) SetTimeout(t time.Duration) {
 // Note that the Go runtime sets SA_RESTART for syscalls which retries them automatically if they interrupted.
 // However, from the signal man page:
 //
-//      The following interfaces are never restarted after being interrupted
-//      by a signal handler, regardless of the use of SA_RESTART; they always
-//      fail with the error EINTR when interrupted by a signal handler:
+//	The following interfaces are never restarted after being interrupted
+//	by a signal handler, regardless of the use of SA_RESTART; they always
+//	fail with the error EINTR when interrupted by a signal handler:
 //
-//      * "Input" socket interfaces, when a timeout (SO_RCVTIMEO) has been
-//      set on the socket using setsockopt(2): accept(2), recv(2),
-//      recvfrom(2), recvmmsg(2) (also with a non-NULL timeout argument),
-//      and recvmsg(2).
+//	* "Input" socket interfaces, when a timeout (SO_RCVTIMEO) has been
+//	set on the socket using setsockopt(2): accept(2), recv(2),
+//	recvfrom(2), recvmmsg(2) (also with a non-NULL timeout argument),
+//	and recvmsg(2).
 //
-//      * "Output" socket interfaces, when a timeout (SO_RCVTIMEO) has been
-//      set on the socket using setsockopt(2): connect(2), send(2),
-//      sendto(2), and sendmsg(2).
+//	* "Output" socket interfaces, when a timeout (SO_RCVTIMEO) has been
+//	set on the socket using setsockopt(2): connect(2), send(2),
+//	sendto(2), and sendmsg(2).
 func withRetry(name string, op func() error) error {
 	defer trace.End(trace.Begin(""))
 

@@ -131,6 +131,7 @@ func NewContainerProxy(plClient *client.PortLayer, portlayerAddr string, portlay
 // Handle retrieves a handle to a VIC container.  Handles should be treated as opaque strings.
 //
 // returns:
+//
 //	(handle string, error)
 func (c *ContainerProxy) Handle(ctx context.Context, id, name string) (string, error) {
 	op := trace.FromContext(ctx, "Handle: %s", id)
@@ -159,6 +160,7 @@ func (c *ContainerProxy) Handle(ctx context.Context, id, name string) (string, e
 // CreateContainerHandle creates a new VIC container by calling the portlayer
 //
 // returns:
+//
 //	(containerID, containerHandle, error)
 func (c *ContainerProxy) CreateContainerHandle(ctx context.Context, vc *viccontainer.VicContainer, config types.ContainerCreateConfig) (string, string, error) {
 	op := trace.FromContext(ctx, "CreateContainerHandle: %s", vc.Name)
@@ -191,6 +193,7 @@ func (c *ContainerProxy) CreateContainerHandle(ctx context.Context, vc *vicconta
 // CreateContainerTask sets the primary command to run in the container
 //
 // returns:
+//
 //	(containerHandle, error)
 func (c *ContainerProxy) CreateContainerTask(ctx context.Context, handle, id string, config types.ContainerCreateConfig) (string, error) {
 	op := trace.FromContext(ctx, "CreateContainerTask: %s", id)
@@ -274,6 +277,7 @@ func (c *ContainerProxy) CreateExecTask(ctx context.Context, handle string, conf
 // If an error is return, the returned handle should not be used.
 //
 // returns:
+//
 //	modified handle
 func (c *ContainerProxy) AddContainerToScope(ctx context.Context, handle string, config types.ContainerCreateConfig) (string, error) {
 	op := trace.FromContext(ctx, "AddContainerToScope: %s", handle)
@@ -324,6 +328,7 @@ func (c *ContainerProxy) AddContainerToScope(ctx context.Context, handle string,
 // If an error is return, the returned handle should not be used.
 //
 // returns:
+//
 //	modified handle
 func (c *ContainerProxy) AddLoggingToContainer(ctx context.Context, handle string, config types.ContainerCreateConfig) (string, error) {
 	op := trace.FromContext(ctx, "AddLoggingToContainer: %s", handle)
@@ -354,6 +359,7 @@ func (c *ContainerProxy) AddLoggingToContainer(ctx context.Context, handle strin
 // If an error is return, the returned handle should not be used.
 //
 // returns:
+//
 //	modified handle
 func (c *ContainerProxy) AddInteractionToContainer(ctx context.Context, handle string, config types.ContainerCreateConfig) (string, error) {
 	op := trace.FromContext(ctx, "AddLoggingToContainer: %s", handle)
@@ -443,6 +449,7 @@ func (c *ContainerProxy) UnbindInteraction(ctx context.Context, handle string, n
 // CommitContainerHandle commits any changes to container handle.
 //
 // Args:
+//
 //	waitTime <= 0 means no wait time
 func (c *ContainerProxy) CommitContainerHandle(ctx context.Context, handle, containerID string, waitTime int32) error {
 	op := trace.FromContext(ctx, "CommitContainerHandle: %s", handle)
@@ -590,6 +597,7 @@ func (c *ContainerProxy) WaitTask(op trace.Operation, handle string, cid string,
 // Stop will stop (shutdown) a VIC container.
 //
 // returns
+//
 //	error
 func (c *ContainerProxy) Stop(ctx context.Context, vc *viccontainer.VicContainer, name string, seconds *int, unbound bool) error {
 	op := trace.FromContext(ctx, "Stop: %s", name)

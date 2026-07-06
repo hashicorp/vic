@@ -515,17 +515,18 @@ func TestSoapFaults(t *testing.T) {
 }
 
 // Added to validate the following, received from VC
-//&types.InvalidPowerState{
-//	InvalidState:types.InvalidState{
-//		VimFault:types.VimFault{
-//			MethodFault:types.MethodFault{
-//				FaultCause:(*types.LocalizedMethodFault)(nil),
-//				FaultMessage:[]types.LocalizableMessage(nil)
+//
+//	&types.InvalidPowerState{
+//		InvalidState:types.InvalidState{
+//			VimFault:types.VimFault{
+//				MethodFault:types.MethodFault{
+//					FaultCause:(*types.LocalizedMethodFault)(nil),
+//					FaultMessage:[]types.LocalizableMessage(nil)
+//				}
 //			}
-//		}
-//	},
-//	RequestedState:\"poweredOn\", ExistingState:\"poweredOff\"
-//}"
+//		},
+//		RequestedState:\"poweredOn\", ExistingState:\"poweredOff\"
+//	}"
 func TestIsAlreadyPoweredOff(t *testing.T) {
 	fault := task.Error{
 		LocalizedMethodFault: &types.LocalizedMethodFault{

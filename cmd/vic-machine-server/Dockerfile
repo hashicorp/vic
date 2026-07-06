@@ -1,5 +1,3 @@
-# Copyright IBM Corp. 2016, 2025
-
 # Building:
 # from vic root directory
 # docker build --no-cache -t vic-machine-server -f cmd/vic-machine-server/Dockerfile .

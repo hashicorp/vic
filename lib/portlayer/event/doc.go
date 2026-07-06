@@ -16,7 +16,7 @@
 Package event manages events via a simple pub / sub mechanism.  Events could be created
 by vic components or registered Collectors.
 
-Basic Overview
+# Basic Overview
 
 The Event Manager provides basic pub / sub functionality.  A subscription consists of a
 topic (any defined Event), a subscription name (string) and a callback function.  When an event is

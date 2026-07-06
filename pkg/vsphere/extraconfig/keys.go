@@ -524,38 +524,37 @@ func calculateKeys(v reflect.Value, field string, prefix string) []string {
 // CalculateKeys gets the keys in extraconfig corresponding to the field
 // specification passed in for obj. Examples:
 //
-//	  type struct A {
-//	      I   int    `vic:"0.1" scope:"read-only" key:"i"`
-//	      Str string `vic:"0.1" scope:"read-only" key:"str"`
-//	  }
+//	type struct A {
+//	    I   int    `vic:"0.1" scope:"read-only" key:"i"`
+//	    Str string `vic:"0.1" scope:"read-only" key:"str"`
+//	}
 //
-//	  type struct B {
-//	      A A                      `vic:"0.1" scope:"read-only" key:"a"`
-//	      Array []A                `vic:"0.1" scope:"read-only" key:"array"`
-//	      Map   map[string]string  `vic:"0.1" scope:"read-only" key:"map"`
-//	  }
+//	type struct B {
+//	    A A                      `vic:"0.1" scope:"read-only" key:"a"`
+//	    Array []A                `vic:"0.1" scope:"read-only" key:"array"`
+//	    Map   map[string]string  `vic:"0.1" scope:"read-only" key:"map"`
+//	}
 //
-//	  b := B{}
-//	  b.Array = []A{A{}}
-//	  b.Map = map[string]string{"foo": "", "bar": ""}
-//	  // returns []string{"a/str"}
-//	  CalculateKeys(b, "A.Str", "")
+//	b := B{}
+//	b.Array = []A{A{}}
+//	b.Map = map[string]string{"foo": "", "bar": ""}
+//	// returns []string{"a/str"}
+//	CalculateKeys(b, "A.Str", "")
 //
-//	  // returns []string{"array|0"}
-//	  CalculateKeys(b, "Array.0", "")
+//	// returns []string{"array|0"}
+//	CalculateKeys(b, "Array.0", "")
 //
-//	  // returns []string{"array|0"}
-//	  CalculateKeys(b, "Array.*", "")
+//	// returns []string{"array|0"}
+//	CalculateKeys(b, "Array.*", "")
 //
-//	  // returns []string{"map|foo", "map|bar"}
-//	  CalculateKeys(b, "Map.*", "")
+//	// returns []string{"map|foo", "map|bar"}
+//	CalculateKeys(b, "Map.*", "")
 //
-//	  // returns []string{"map|foo"}
-//	  CalculateKeys(b, "Map.foo", "")
+//	// returns []string{"map|foo"}
+//	CalculateKeys(b, "Map.foo", "")
 //
-//	  // returns []string{"map|foo/str"}
-//	  CalculateKeys(b, "Map.foo.str", "")
-//
+//	// returns []string{"map|foo/str"}
+//	CalculateKeys(b, "Map.foo.str", "")
 func CalculateKeys(obj interface{}, field string, prefix string) []string {
 	return calculateKeys(reflect.ValueOf(obj), field, prefix)
 }

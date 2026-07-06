@@ -157,11 +157,12 @@ type ContainerInfo struct {
 // Container is used for an entry in the container cache - this is a "live" representation
 // of containers in the infrastructure.
 // DANGEROUS USAGE CONSTRAINTS:
-//   None of the containerBase fields should be partially updated - consider them immutable once they're
-//   part of a cache entry
-//   i.e. Do not make changes in containerBase.ExecConfig - only swap, under lock, the pointer for a
-//   completely new ExecConfig.
-//   This constraint allows us to avoid deep copying those structs every time a container is inspected
+//
+//	None of the containerBase fields should be partially updated - consider them immutable once they're
+//	part of a cache entry
+//	i.e. Do not make changes in containerBase.ExecConfig - only swap, under lock, the pointer for a
+//	completely new ExecConfig.
+//	This constraint allows us to avoid deep copying those structs every time a container is inspected
 type Container struct {
 	m sync.Mutex
 

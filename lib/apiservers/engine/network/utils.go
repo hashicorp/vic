@@ -563,7 +563,7 @@ func DirectPortInformation(t *models.ContainerInfo) []types.Port {
 
 // returns port bindings as a slice of Docker Ports for return to the client
 // returns empty slice on error
-//func PortForwardingInformation(t *models.ContainerInfo, ips []string) []types.Port {
+// func PortForwardingInformation(t *models.ContainerInfo, ips []string) []types.Port {
 func PortForwardingInformation(vc *viccontainer.VicContainer, ips []string) []types.Port {
 	//cid := t.ContainerConfig.ContainerID
 	//c := cache.ContainerCache().GetContainer(cid)

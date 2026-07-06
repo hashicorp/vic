@@ -19,7 +19,7 @@ import (
 	"path"
 )
 
-//  Volume identifies an NFS based volume
+// Volume identifies an NFS based volume
 type Volume struct {
 
 	// VS Host + Path to the actual volume

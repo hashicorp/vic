@@ -1174,13 +1174,14 @@ func getExecUser(u string) (*user.ExecUser, error) {
 // Need to put this here because Windows does not support SysProcAttr.Credential
 // getUserSysProcAttr relies on docker user package to verify user specification
 // Examples of valid user specifications are:
-//     * ""
-//     * "user"
-//     * "uid"
-//     * "user:group"
-//     * "uid:gid
-//     * "user:gid"
-//     * "uid:group"
+//   - ""
+//   - "user"
+//   - "uid"
+//   - "user:group"
+//   - "uid:gid
+//   - "user:gid"
+//   - "uid:group"
+//
 // need to use libcontainer "user" package for user validation as os/user package
 // cannot find user if container image is busybox
 func getUserSysProcAttr(uid, gid string) (*syscall.SysProcAttr, error) {

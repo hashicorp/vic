@@ -40,9 +40,9 @@ type ContainerListContext struct {
 
 // IncludeContainer will evaluate the filter criteria in listContext against the provided
 // container and determine what action to take. There are three options:
-//  * IncludeAction
-//  * ExcludeAction
-//  * StopAction
+//   - IncludeAction
+//   - ExcludeAction
+//   - StopAction
 func IncludeContainer(listContext *ContainerListContext, container *models.ContainerInfo) FilterAction {
 
 	// if we need to filter on name add to the listContext

@@ -119,7 +119,8 @@ type ExitLog struct {
 // MountSpec details a mount that must be executed within the executor
 // A mount is a URI -> path mapping with a credential of some kind
 // In the case of a labeled disk:
-// 	label://<label name> => </mnt/path>
+//
+//	label://<label name> => </mnt/path>
 type MountSpec struct {
 	// A URI->path mapping, e.g.
 	// May contain credentials

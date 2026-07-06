@@ -119,7 +119,7 @@ func newConn(opts *connOpts) *Conn {
 	return tc
 }
 
-//UnderlyingConnection returns the underlying TCP connection
+// UnderlyingConnection returns the underlying TCP connection
 func (c *Conn) UnderlyingConnection() net.Conn {
 	return c.conn
 }

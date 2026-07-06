@@ -38,7 +38,7 @@ type SparseHandle exec2.Handle
 
 var lcTarget exec2.ContainerLifecycle
 
-//var lcQuery exec2.ContainerQuery
+// var lcQuery exec2.ContainerQuery
 var handles map[SparseHandle]exec2.Handle
 
 func init() {

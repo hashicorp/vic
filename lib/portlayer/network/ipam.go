@@ -107,8 +107,7 @@ func isIP4(ip net.IP) bool {
 // lowestIP4 returns the lowest possible IP address
 // in an IP network. For example:
 //
-//     lowestIP4(net.IPNet{}IP: net.ParseIP("172.16.0.0"), Mask: net.CIDRMask(16, 32)}) -> 172.16.0.0
-//
+//	lowestIP4(net.IPNet{}IP: net.ParseIP("172.16.0.0"), Mask: net.CIDRMask(16, 32)}) -> 172.16.0.0
 func lowestIP4(ipRange *net.IPNet) net.IP {
 	return ipRange.IP.Mask(ipRange.Mask).To16()
 }
@@ -116,8 +115,7 @@ func lowestIP4(ipRange *net.IPNet) net.IP {
 // highestIP4 returns the highest possible IP address
 // in an IP network. For example:
 //
-//     highestIP4(net.IPNet{}IP: net.ParseIP("172.16.0.0"), Mask: net.CIDRMask(16, 32)}) -> 172.16.255.255
-//
+//	highestIP4(net.IPNet{}IP: net.ParseIP("172.16.0.0"), Mask: net.CIDRMask(16, 32)}) -> 172.16.255.255
 func highestIP4(ipRange *net.IPNet) net.IP {
 	if !isIP4(ipRange.IP) {
 		return nil

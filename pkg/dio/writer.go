@@ -116,7 +116,7 @@ type CloseWriter interface {
 }
 
 // FIXME: provide a mechanism for selectively closing writers
-//  - currently this closes /dev/stdout and logging as well if present
+//   - currently this closes /dev/stdout and logging as well if present
 func (t *multiWriter) Close() error {
 	t.mutex.Lock()
 	defer t.mutex.Unlock()

@@ -22,7 +22,8 @@ import (
 
 // State takes the given snapshot of a Task and determines the state of the Task.
 // NOTE: this does not take into account the powerstate of the task owner at the moment.
-//       callers should act on power state information before calling this.
+//
+//	callers should act on power state information before calling this.
 func State(op trace.Operation, e *executor.SessionConfig) (string, error) {
 
 	// DO NOT ASSUME THAT WE CANNOT GET STATE TEARING - THE ORDERING OF SERIALIZATION IS GO REFLECT PACKAGE DEPENDENT

@@ -125,7 +125,7 @@ func NewVirtualMachineConfigSpec(ctx context.Context, session *session.Session, 
 	vmcs := &VirtualMachineConfigSpec{
 		Session:                  session,
 		VirtualMachineConfigSpec: s,
-		config: config,
+		config:                   config,
 	}
 
 	return vmcs, nil

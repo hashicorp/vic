@@ -145,7 +145,7 @@ func TestStructMap(t *testing.T) {
 		visibleRO("map" + Separator + "Key3/id"):    "0xDEADF00D",
 		visibleRO("map" + Separator + "Key3/name"):  "dead",
 		visibleRO("map" + Separator + "Key3/notes"): "",
-		visibleRO("map"):                            "Key1" + Separator + "Key2" + Separator + "Key3",
+		visibleRO("map"): "Key1" + Separator + "Key2" + Separator + "Key3",
 	}
 	assert.Equal(t, expected, encoded, "Encoded and expected does not match")
 

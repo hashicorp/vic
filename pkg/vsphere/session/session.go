@@ -21,7 +21,6 @@
 // each corresponding value in Config. The Session is returned and
 // the user can use the cached govmomi objects in the exported fields of
 // Session instead of directly using a govmomi Client.
-//
 package session
 
 import (
