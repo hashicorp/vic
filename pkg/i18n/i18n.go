@@ -20,17 +20,17 @@
 //
 // English
 //
-//			File: messages/en
+//	File: messages/en
 //
-// 			greeting=hello
-// 			thanks=thank you
+//	greeting=hello
+//	thanks=thank you
 //
 // Spanish
 //
-// 			File: messages/es
+//	File: messages/es
 //
-// 			greeting=hola
-// 			thanks=gracias
+//	greeting=hola
+//	thanks=gracias
 //
 // To use the translation functionality, call LoadLanguage with the desired
 // messages file for the local language. Replace uses of string literals
@@ -40,20 +40,19 @@
 // Once initialized, Printer can also be used directly with fmt-like print functions.
 // This can be used to include format strings for localization as below:
 //
-// 			val := Printer.Sprintf("You know nothing %s", "Jon Snow")
+//	val := Printer.Sprintf("You know nothing %s", "Jon Snow")
 //
 // The corresponding messages catalogs would be:
 //
-// 			File: messages/en
+//	File: messages/en
 //
-// 			You know nothing %s=You know nothing %s
+//	You know nothing %s=You know nothing %s
 //
-// 			File: messages/es
+//	File: messages/es
 //
-// 			You know nothing %s=No sabes nada %s
+//	You know nothing %s=No sabes nada %s
 //
-//
-// Packaging message catalogs
+// # Packaging message catalogs
 //
 // Instead of loading a messages file from an on disk file, it is possible to
 // load it from a byte array that has been included with the source.
@@ -62,14 +61,13 @@
 // https://github.com/jteeuwen/go-bindata to convert these files to Go source code.
 // This MUST be done whenever any file in messages is added or edited.
 //
-// 			go-bindata -o messages.go messages
+//	go-bindata -o messages.go messages
 //
 // Use the messages by recovering the byte[] corresponding to the file in the
 // messages directory and loading it.
 //
-//			data, err := Asset("messages/en")
-//			i18n.LoadLanguageBytes(language.English, data)
-//
+//	data, err := Asset("messages/en")
+//	i18n.LoadLanguageBytes(language.English, data)
 package i18n
 
 import (

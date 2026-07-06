@@ -84,7 +84,8 @@ func (s *SystemProxy) PingPortlayer(ctx context.Context) bool {
 }
 
 // Use the Portlayer's support for docker ps to get the container count
-//   return order: running, paused, stopped counts
+//
+//	return order: running, paused, stopped counts
 func (s *SystemProxy) ContainerCount(ctx context.Context) (int, int, int, error) {
 	defer trace.End(trace.Begin(""))
 

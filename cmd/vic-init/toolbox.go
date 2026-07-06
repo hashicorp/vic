@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build !windows && !darwin
 // +build !windows,!darwin
 
 package main
@@ -39,8 +40,9 @@ import (
 // startCommand is the switch for the synthetic commands that are permitted within the appliance.
 // This is not intended to allow arbitrary commands to be executed.
 // returns:
-//  pid: toolbox ProcessManager Process id
-//  error
+//
+//	pid: toolbox ProcessManager Process id
+//	error
 func startCommand(m *toolbox.ProcessManager, r *vix.StartProgramRequest) (int64, error) {
 	defer trace.End(trace.Begin(r.ProgramPath))
 	var p *toolbox.Process

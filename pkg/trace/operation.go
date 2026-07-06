@@ -279,8 +279,9 @@ func NewOperationFromID(ctx context.Context, ID *string, format string, args ...
 // context and logging settings copied from the supplied operation.
 //
 // Deprecated: This method was added to aid in converting old code to use operation-based logging.
-//             Its use almost always indicates a broken context/operation model (e.g., a context
-//             being improperly stored in a struct instead of being passed between functions).
+//
+//	Its use almost always indicates a broken context/operation model (e.g., a context
+//	being improperly stored in a struct instead of being passed between functions).
 func NewOperationWithLoggerFrom(ctx context.Context, oldOp Operation, format string, args ...interface{}) Operation {
 	op := NewOperation(ctx, format, args...)
 	op.Logger = oldOp.Logger
@@ -328,9 +329,10 @@ func FromOperation(parent Operation, format string, args ...interface{}) Operati
 // fromContext will return an Operation
 //
 // The Operation returned will be one of the following:
-//   The operation in the context value
-//   The operation passed as the context param
-//   nil if neither of the above are true
+//
+//	The operation in the context value
+//	The operation passed as the context param
+//	nil if neither of the above are true
 func fromContext(ctx context.Context) *Operation {
 
 	// do we have an operation - if we do we're creating a new child from the one in the context
@@ -356,9 +358,10 @@ func fromContext(ctx context.Context) *Operation {
 // a new Operation being created, i.e. there was no operation found in the context
 //
 // The Operation returned will be one of the following:
-//   The operation in the context value
-//   The operation passed as the context param
-//   A new operation
+//
+//	The operation in the context value
+//	The operation passed as the context param
+//	A new operation
 func FromContext(ctx context.Context, message string, args ...interface{}) Operation {
 	cop := fromContext(ctx)
 	if cop != nil {
@@ -371,9 +374,10 @@ func FromContext(ctx context.Context, message string, args ...interface{}) Opera
 // ChildFromContext will return an Operation
 //
 // The Operation returned will be one of the following:
-//   A child of the operation in the context value
-//   A child of the operation passed as the context param
-//   A new operation
+//
+//	A child of the operation in the context value
+//	A child of the operation passed as the context param
+//	A new operation
 func ChildFromContext(ctx context.Context, message string, args ...interface{}) Operation {
 
 	// do we have an operation - if we do we're creating a new child from the one in the context

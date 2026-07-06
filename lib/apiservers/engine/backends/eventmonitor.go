@@ -82,6 +82,7 @@ type PortlayerEventMonitor struct {
 // StreamEvents() handles all swagger interaction to the Portlayer's event manager
 //
 // Input:
+//
 //	context and a io.Writer
 func (ep PlEventProxy) StreamEvents(ctx context.Context, out io.Writer) error {
 	defer trace.End(trace.Begin(""))

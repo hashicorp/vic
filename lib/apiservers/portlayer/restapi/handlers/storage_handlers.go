@@ -371,7 +371,7 @@ func (h *StorageHandlersImpl) WriteImage(params storage.WriteImageParams) middle
 	return storage.NewWriteImageCreated().WithPayload(i)
 }
 
-//ImageJoin modifies the config spec of a container to include the specified image
+// ImageJoin modifies the config spec of a container to include the specified image
 func (h *StorageHandlersImpl) ImageJoin(params storage.ImageJoinParams) middleware.Responder {
 	op := trace.NewOperation(context.Background(), "ImageJoin %s", params.ID)
 	defer trace.End(trace.Begin("", op))
@@ -422,7 +422,7 @@ func (h *StorageHandlersImpl) VolumeStoresList(params storage.VolumeStoresListPa
 	return storage.NewVolumeStoresListOK().WithPayload(resp)
 }
 
-//CreateVolume : Create a Volume
+// CreateVolume : Create a Volume
 func (h *StorageHandlersImpl) CreateVolume(params storage.CreateVolumeParams) middleware.Responder {
 	op := trace.NewOperationFromID(context.Background(), params.OpID, "CreateVolume(%s)", params.VolumeRequest.Name)
 	defer trace.End(trace.Begin("CreateVolume", op))
@@ -478,7 +478,7 @@ func (h *StorageHandlersImpl) CreateVolume(params storage.CreateVolumeParams) mi
 	return storage.NewCreateVolumeCreated().WithPayload(&response)
 }
 
-//GetVolume : Gets a handle to a volume
+// GetVolume : Gets a handle to a volume
 func (h *StorageHandlersImpl) GetVolume(params storage.GetVolumeParams) middleware.Responder {
 	op := trace.NewOperationFromID(context.Background(), params.OpID, "GetVolume(%s)", params.Name)
 	defer trace.End(trace.Begin("GetVolume", op))
@@ -503,7 +503,7 @@ func (h *StorageHandlersImpl) GetVolume(params storage.GetVolumeParams) middlewa
 	return storage.NewGetVolumeOK().WithPayload(&response)
 }
 
-//RemoveVolume : Remove a Volume from existence
+// RemoveVolume : Remove a Volume from existence
 func (h *StorageHandlersImpl) RemoveVolume(params storage.RemoveVolumeParams) middleware.Responder {
 	op := trace.NewOperationFromID(context.Background(), params.OpID, "RemoveVolume(%s)", params.Name)
 	defer trace.End(trace.Begin("RemoveVolume", op))
@@ -530,7 +530,7 @@ func (h *StorageHandlersImpl) RemoveVolume(params storage.RemoveVolumeParams) mi
 	return storage.NewRemoveVolumeOK()
 }
 
-//VolumesList : Lists available volumes for use
+// VolumesList : Lists available volumes for use
 func (h *StorageHandlersImpl) VolumesList(params storage.ListVolumesParams) middleware.Responder {
 	op := trace.NewOperationFromID(context.Background(), params.OpID, "VolumesList")
 	defer trace.End(trace.Begin("VolumesList", op))
@@ -564,7 +564,7 @@ func (h *StorageHandlersImpl) VolumesList(params storage.ListVolumesParams) midd
 	return storage.NewListVolumesOK().WithPayload(result)
 }
 
-//VolumeJoin : modifies the config spec of a container to mount the specified container
+// VolumeJoin : modifies the config spec of a container to mount the specified container
 func (h *StorageHandlersImpl) VolumeJoin(params storage.VolumeJoinParams) middleware.Responder {
 	op := trace.NewOperationFromID(context.Background(), params.OpID, "VolumeJoin(%s)", params.Name)
 	defer trace.End(trace.Begin("VolumeJoin", op))

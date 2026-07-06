@@ -179,7 +179,6 @@ func (d *Helper) Mkdir(ctx context.Context, createParentDirectories bool, dirs .
 
 // The only URI that works on VC + VSAN.
 // r, err := ds.Ls(ctx, "[vsanDatastore] /0ea65357-0494-d42d-2ede-000c292dc5b5")
-//
 func (d *Helper) Ls(ctx context.Context, p string, match ...string) (*types.HostDatastoreBrowserSearchResults, error) {
 	if len(match) == 0 {
 		match = []string{"*"}

@@ -412,27 +412,27 @@ func (wm *ArchiveStreamWriterMap) FindArchiveWriter(containerDestPath, assetName
 // a mount point and another mount point within the first mount point.  For instance, the
 // prefix map can have,
 //
-//		R/W -					/
-//		mount 1 -				/mnt/a
-//		mount 2 -				/mnt/a/b
+//	R/W -					/
+//	mount 1 -				/mnt/a
+//	mount 2 -				/mnt/a/b
 //
-//		case 1:
-//				containerDestPath -			/mnt/a
-//				archive header source -		b/file.txt
+//	case 1:
+//			containerDestPath -			/mnt/a
+//			archive header source -		b/file.txt
 //
-//			The correct writer would be the one corresponding to mount 2.
+//		The correct writer would be the one corresponding to mount 2.
 //
-//		case 2:
-//				containerDestPath -			/mnt/a
-//				archive header source -		file.txt
+//	case 2:
+//			containerDestPath -			/mnt/a
+//			archive header source -		file.txt
 //
-//			The correct writer would be the one corresponding to mount 1.
+//		The correct writer would be the one corresponding to mount 1.
 //
-//		case 3:
-//				containerDestPath -			/
-//				archive header source -		mnt/a/file.txt
+//	case 3:
+//			containerDestPath -			/
+//			archive header source -		mnt/a/file.txt
 //
-//			The correct writer would be the one corresponding to mount 1
+//		The correct writer would be the one corresponding to mount 1
 //
 // As demonstrated above, the mount prefix and writer cannot be determined with just the
 // container destination path.  It must be combined with the actual asset's name.
@@ -629,11 +629,13 @@ func (rm *ArchiveStreamReaderMap) FindArchiveReaders(containerSourcePath string)
 }
 
 // ReadersForSourcePath returns all an array of io.Reader for all the readers within a container source path.
-//		Example:
-//			Reader 1 -				/mnt/A
-//			Reader 2 -				/mnt/A/B
 //
-//			containerSourcePath -	/mnt/A
+//	Example:
+//		Reader 1 -				/mnt/A
+//		Reader 2 -				/mnt/A/B
+//
+//		containerSourcePath -	/mnt/A
+//
 // In the above, both readers are within the the container source path.
 func (rm *ArchiveStreamReaderMap) ReadersForSourcePath(proxy proxy.VicArchiveProxy, cid, containerSourcePath string) ([]io.ReadCloser, error) {
 	defer trace.End(trace.Begin(containerSourcePath))
@@ -699,7 +701,7 @@ func (rm *ArchiveStreamReaderMap) Close() {
 	rm.prefixTrie.Visit(closeStream)
 }
 
-//  tryFakeStatPath tries to fake the statpath for path that targets the mountpoint or along the mountpoint
+// tryFakeStatPath tries to fake the statpath for path that targets the mountpoint or along the mountpoint
 func tryFakeStatPath(mounts []types.MountPoint, target string) (*types.ContainerPathStat, bool) {
 	isMountPathTarget := false
 

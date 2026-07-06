@@ -372,7 +372,7 @@ func (c *ContainerBackend) attachHelper(op trace.Operation, ec *models.TaskInspe
 	}
 
 	ac := &proxy.AttachConfig{
-		ID: ec.ID,
+		ID:                    ec.ID,
 		ContainerAttachConfig: ca,
 		UseTty:                ec.Tty,
 		CloseStdin:            true,
@@ -412,8 +412,9 @@ func processAttachError(op trace.Operation, actor *eventtypes.Actor, err error) 
 
 // taskStartHelper performs a series of calls to enable and launch a task but does not wait for confirmation of launch
 // Returns:
-//  task data
-//  error if any
+//
+//	task data
+//	error if any
 func (c *ContainerBackend) taskStartHelper(op trace.Operation, id, eid, name string) (*models.TaskInspectResponse, error) {
 	defer trace.End(trace.Begin(fmt.Sprintf("%s.%s", id, eid), op))
 
@@ -754,6 +755,7 @@ func (c *ContainerBackend) ContainerCreate(config types.ContainerCreateConfig) (
 // VIC container.  All remoting code is in the proxy.
 //
 // returns:
+//
 //	(container id, error)
 func (c *ContainerBackend) containerCreate(op trace.Operation, vc *viccontainer.VicContainer, config types.ContainerCreateConfig) (string, error) {
 	defer trace.End(trace.Begin("Container.containerCreate"))
@@ -1749,7 +1751,7 @@ func (c *ContainerBackend) containerAttach(op trace.Operation, name string, ca *
 	}
 
 	ac := &proxy.AttachConfig{
-		ID: id,
+		ID:                    id,
 		ContainerAttachConfig: ca,
 		UseTty:                vc.Config.Tty,
 		CloseStdin:            vc.Config.StdinOnce,
@@ -2092,6 +2094,7 @@ func copyConfigOverrides(vc *viccontainer.VicContainer, config types.ContainerCr
 // backend.ContainerLogsConfig object we're given.
 //
 // returns:
+//
 //	tail lines, since (in unix time), error
 func (c *ContainerBackend) validateContainerLogsConfig(vc *viccontainer.VicContainer, config *backend.ContainerLogsConfig) (int64, int64, error) {
 	if !(config.ShowStdout || config.ShowStderr) {

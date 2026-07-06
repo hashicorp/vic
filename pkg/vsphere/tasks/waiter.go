@@ -32,8 +32,9 @@ const (
 	maxBackoffFactor = int64(16)
 )
 
-//FIXME: remove this type and refactor to use object.Task from govmomi
-//       this will require a lot of code being touched in a lot of places.
+// FIXME: remove this type and refactor to use object.Task from govmomi
+//
+//	this will require a lot of code being touched in a lot of places.
 type Task interface {
 	Wait(ctx context.Context) error
 	WaitForResult(ctx context.Context, s progress.Sinker) (*types.TaskInfo, error)
@@ -45,9 +46,10 @@ type temporary interface {
 
 // Wait wraps govmomi operations and wait the operation to complete
 // Sample usage:
-//    info, err := Wait(ctx, func(ctx), (*object.Reference, *TaskInfo, error) {
-//       return vm, vm.Reconfigure(ctx, config)
-//    })
+//
+//	info, err := Wait(ctx, func(ctx), (*object.Reference, *TaskInfo, error) {
+//	   return vm, vm.Reconfigure(ctx, config)
+//	})
 func Wait(ctx context.Context, f func(context.Context) (Task, error)) error {
 	_, err := WaitForResult(ctx, f)
 	return err
@@ -56,9 +58,10 @@ func Wait(ctx context.Context, f func(context.Context) (Task, error)) error {
 // WaitForResult wraps govmomi operations and wait the operation to complete.
 // Return the operation result
 // Sample usage:
-//    info, err := WaitForResult(ctx, func(ctx) (*TaskInfo, error) {
-//       return vm, vm.Reconfigure(ctx, config)
-//    })
+//
+//	info, err := WaitForResult(ctx, func(ctx) (*TaskInfo, error) {
+//	   return vm, vm.Reconfigure(ctx, config)
+//	})
 func WaitForResult(ctx context.Context, f func(context.Context) (Task, error)) (*types.TaskInfo, error) {
 	return WaitForResultAndRetryIf(ctx, f, IsRetryError)
 }
@@ -66,9 +69,10 @@ func WaitForResult(ctx context.Context, f func(context.Context) (Task, error)) (
 // WaitForResultAndRetryIf wraps govmomi operations and wait the operation to complete, retrying under specified conditions.
 // Return the operation result
 // Sample usage:
-//    info, err := WaitForResult(ctx, func(ctx) (*TaskInfo, error) {
-//       return vm, vm.Reconfigure(ctx, config)
-//    })
+//
+//	info, err := WaitForResult(ctx, func(ctx) (*TaskInfo, error) {
+//	   return vm, vm.Reconfigure(ctx, config)
+//	})
 func WaitForResultAndRetryIf(ctx context.Context, f func(context.Context) (Task, error), shouldRetry func(op trace.Operation, err error) bool) (*types.TaskInfo, error) {
 	var err error
 	var backoffFactor int64 = 1

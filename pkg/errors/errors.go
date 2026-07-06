@@ -13,7 +13,6 @@
 // limitations under the License.
 
 // Package errors provides error handling functions.
-//
 package errors
 
 import (

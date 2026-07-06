@@ -253,7 +253,8 @@ func (d *VirtualDisk) InUseByOther() bool {
 // Mount attempts to mount this disk. A NOP occurs if the disk is already mounted
 // It returns the path at which the disk is mounted
 // Enhancement: allow provision of mount path and refcount for:
-//   specific mount point and options
+//
+//	specific mount point and options
 func (d *VirtualDisk) Mount(op trace.Operation, options []string) (string, error) {
 	d.l.Lock()
 	defer d.l.Unlock()

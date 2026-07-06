@@ -16,6 +16,7 @@
 // functions that it provides.
 // https://github.com/moby/moby/blob/master/pkg/archive/archive_unix.go
 
+//go:build !windows
 // +build !windows
 
 package archive

@@ -688,12 +688,17 @@ func (s *Server) Wait() {
 }
 
 // SetOfDomains is a type for storing string-type domain names as an unsorted set
-//     var f SetOfDomains
-//     f = make(map[string]bool)
+//
+//	var f SetOfDomains
+//	f = make(map[string]bool)
+//
 // Store in the set
-//     f["foo.com"] = true
+//
+//	f["foo.com"] = true
+//
 // then to check to see if something is in the 'set':
-//     if f["foo.com"] {
+//
+//	if f["foo.com"] {
 type SetOfDomains map[string]bool
 
 // ReverseLookup returns a set of FQDNs for ipAddr from nameservers in /etc/resolv.conf

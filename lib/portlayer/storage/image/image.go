@@ -92,7 +92,6 @@ type ImageStorer interface {
 // following path scheme:
 //
 // `/storage/<image store identifier, usually the vch uuid>/<image id>`
-//
 type Image struct {
 	// ID is the identifier for this layer.  Usually a SHA
 	ID string

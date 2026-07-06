@@ -132,6 +132,7 @@ func NewURLFetcher(options Options) Fetcher {
 }
 
 // Fetch fetches from a url and stores its content in a temporary file.
+//
 //	hdrs is optional.
 func (u *URLFetcher) Fetch(ctx context.Context, url *url.URL, reqHdrs *http.Header, toFile bool, po progress.Output, ids ...string) (string, error) {
 	op := trace.FromContext(ctx, "Fetch")

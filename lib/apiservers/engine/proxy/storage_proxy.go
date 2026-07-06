@@ -95,7 +95,7 @@ var SupportedVolDrivers = map[string]struct{}{
 	"local":   {},
 }
 
-//Validation pattern for Volume Names
+// Validation pattern for Volume Names
 var volumeNameRegex = regexp.MustCompile("^[a-zA-Z0-9][a-zA-Z0-9_.-]*$")
 
 func NewStorageProxy(client *client.PortLayer) VicStorageProxy {
@@ -248,6 +248,7 @@ func (s *StorageProxy) Remove(ctx context.Context, name string) error {
 // - imageID is the current label by which we address this image and is recorded as metadata
 // - repoName is the repository for the image and is recorded as metadata
 // returns:
+//
 //	modified handle
 func (s *StorageProxy) AddImageToContainer(ctx context.Context, handle, deltaID, layerID, imageID string, config types.ContainerCreateConfig) (string, error) {
 	op := trace.FromContext(ctx, "AddImageToContainer: %s", deltaID)
@@ -299,6 +300,7 @@ func (s *StorageProxy) AddImageToContainer(ctx context.Context, handle, deltaID,
 // If an error is returned, the returned handle should not be used.
 //
 // returns:
+//
 //	modified handle
 func (s *StorageProxy) AddVolumesToContainer(ctx context.Context, handle string, config types.ContainerCreateConfig) (string, error) {
 	op := trace.FromContext(ctx, "AddVolumesToContainer: %s", handle)

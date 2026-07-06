@@ -430,7 +430,7 @@ func addrToUse(op trace.Operation, candidateIPs []net.IP, cert *x509.Certificate
 	return "", errors.New("unable to determine viable address")
 }
 
-/// viableHostAddresses attempts to determine which possibles addresses in the certificate
+// / viableHostAddresses attempts to determine which possibles addresses in the certificate
 // are viable from the current location.
 // This will return all IP addresses - it attempts to validate DNS names via resolution.
 // This does NOT check connectivity

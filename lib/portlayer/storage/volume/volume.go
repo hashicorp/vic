@@ -58,7 +58,6 @@ type VolumeStorer interface {
 // path scheme:
 //
 // `/storage/volumes/<volume store identifier, usually the vch uuid>/<volume id>`
-//
 type Volume struct {
 	// Identifies the volume
 	ID string

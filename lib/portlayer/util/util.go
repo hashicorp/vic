@@ -69,8 +69,9 @@ func ServiceURL(serviceName string) *url.URL {
 
 // prepTemplate takes a template string, determines it's suitability for use and adjusts it if necessary
 // returns:
-//   adjusted template
-//   available length for insertions
+//
+//	adjusted template
+//	available length for insertions
 func prepTemplate(op trace.Operation, template string) (string, int) {
 	if template == "" {
 		template = config.DefaultNamePattern
@@ -120,8 +121,9 @@ func cachedPrepTemplate(op trace.Operation, template string) (string, int) {
 
 // replaceToken will replace the first occurrence only of the specific PatternToken in the template.
 // Returns:
-//	 updated template with value inserted
-//   renaming available capacity for insertions
+//
+//		 updated template with value inserted
+//	  renaming available capacity for insertions
 func replaceToken(template string, token config.PatternToken, value string, availableLen int) (string, int) {
 	if strings.Contains(template, token.String()) {
 		trunc := value

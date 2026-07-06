@@ -61,10 +61,11 @@ func (slice SortedManifestByRepo) Swap(i, j int) {
 }
 
 // ManifestEntry includes the fields from the original manifest plus some additional fields:
-//   HasTags - does the repository have tags
-//   RevisionTag - is there a tag corresponding to this revision
-//   SuggestedTag - if there is no tag, the most recent tag is listed
-//   SuggestedRev - if a tag is suggested, the revision is also suggested
+//
+//	HasTags - does the repository have tags
+//	RevisionTag - is there a tag corresponding to this revision
+//	SuggestedTag - if there is no tag, the most recent tag is listed
+//	SuggestedRev - if a tag is suggested, the revision is also suggested
 type ManifestEntry struct {
 	Importpath   string
 	Repository   string
