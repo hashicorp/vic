@@ -15,7 +15,6 @@
 SHELL=/bin/bash
 
 GO ?= go
-GOVERSION ?= go1.8
 OS := $(shell uname | awk '{print tolower($$0)}')
 ifeq (vagrant, $(filter vagrant,$(USER) $(SUDO_USER)))
 	# assuming we are in a shared directory where host arch is different from the guest
@@ -30,6 +29,9 @@ BIN ?= bin
 IGNORE := $(shell mkdir -p $(BIN))
 
 export GOPATH ?= $(shell echo $(CURDIR) | sed -e 's,/src/.*,,')
+# Force GOPATH mode: this project predates Go modules and relies on the
+# vendor/ directory, which modern Go (module mode by default) ignores.
+export GO111MODULE = off
 SWAGGER ?= $(GOPATH)/bin/swagger$(BIN_ARCH)
 GOIMPORTS ?= $(GOPATH)/bin/goimports$(BIN_ARCH)
 GOLINT ?= $(GOPATH)/bin/golint$(BIN_ARCH)
@@ -40,7 +42,7 @@ MISSPELL ?= $(GOPATH)/bin/misspell$(BIN_ARCH)
 DOCKER_BUILD := $(BASE_DIR)/infra/build-image/docker-iso-build.sh
 
 .PHONY: all tools clean test check distro \
-	goversion goimports gopath govet gofmt misspell gas golint \
+	goimports gopath govet gofmt misspell gas golint \
 	isos tethers apiservers copyright
 
 .DEFAULT_GOAL := all
@@ -161,8 +163,8 @@ misspell: $(MISSPELL)
 
 # convenience targets
 all: components tethers isos vic-machine imagec
-tools: $(GOIMPORTS) $(GVT) $(GOLINT) $(SWAGGER) $(GAS) $(MISSPELL) goversion
-check: goversion goimports gofmt misspell govet golint copyright whitespace gas
+tools: $(GOIMPORTS) $(GVT) $(GOLINT) $(SWAGGER) $(GAS) $(MISSPELL)
+check: goimports gofmt misspell govet golint copyright whitespace gas
 apiservers: $(portlayerapi) $(docker-engine-api) $(serviceapi)
 components: check apiservers $(vicadmin) $(rpctool)
 isos: $(appliance) $(bootstrap)
@@ -171,10 +173,6 @@ tethers: $(tether-linux)
 most: $(portlayerapi) $(docker-engine-api) $(vicadmin) $(tether-linux) $(appliance) $(bootstrap) $(vic-machine-linux) $(serviceapi)
 
 # utility targets
-goversion:
-	@echo checking go version...
-	@( $(GO) version | grep -q $(GOVERSION) ) || ( echo "Please install $(GOVERSION) (found: $$($(GO) version))" && exit 1 )
-
 $(GOIMPORTS): vendor/manifest
 	@echo building $(GOIMPORTS)...
 	@$(GO) build $(RACE) -o $(GOIMPORTS) ./vendor/golang.org/x/tools/cmd/goimports
@@ -519,3 +517,9 @@ distclean: clean
 cleandeps:
 	@echo removing dependency cache
 	@rm -rf .godeps_cache
+
+.PHONY: copywriteheaders
+copywriteheaders:
+	@echo "==> Running copywrite headers plan..."
+	@copywrite headers --plan
+	@echo "==> Done"
