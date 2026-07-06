@@ -31,4 +31,9 @@ jobs:
           export GOPATH=$(realpath .)
           cd src/github.com/vmware/vic
 
-          make components vic-machine tethers imagec
+          # NOTE: swagger code generation (the apiservers and imagec targets)
+          # is intentionally excluded. The vendored go-swagger (2017-era) is
+          # incompatible with modern Go toolchains, so the API server/client
+          # code cannot be regenerated in CI. Build only the targets that do
+          # not depend on swagger generation.
+          make check vicadmin rpctool vic-machine tethers
